@@ -1,0 +1,3878 @@
+category_code,category_label,parent_code,text
+1A2,Unsteady Aerodynamics,1A0,"Unsteady Aerodynamics - In aerodynamics, unsteady phenomena occur from shock-boundary layer interaction or boundary layer separation, but also are present in the flows around rotating systems. They concern the external aerodynamics of all the vehicles: aircraft, helicopter, projectile and launcher. To answer the purpose of transport aircraft, the aims of studies are guided by the requirement of non separated flow in cruise and some constraints in the flight envelope: buffeting onset, flutter risk, limit cycle oscillation and level and spectral power of the loads on structures. Unsteadiness is an important parameter on the behaviour and the performances of flexible aircraft. For fighters at high angle of attack, separated flows are encountered in air intakes on forebody, wings and afterbody. Thus, hysteresis phenomena of lift coefficient is the characteristic of quick manoeuvres in aerial combat. The aircraft behaviour during flight in turbulence is also an important feature for penetration mission. Airflow around helicopter is of course unsteady due to the relative speed of local flow on the blades during the rotation of the rotor (advancing side and retreating side) and to the cyclic movements of articulated blades. The same kind of unsteady interaction is encountered between propfan and wing of commuters. The buffeting observed at the base of launchers is created by strong separation of the external flow and interactions with exhaust plume. Internal separation in over-expanded nozzles at the take-off is unsteady and 3D and causes lateral forces beside the thrust. The behaviour in gust and during the activation of control surfaces is important data for the control of the vehicles. Unsteady flows are also encountered in turbomachinery due to the rotation and interactions between the stages. - 1. Computational Fluid Dynamics_x000D_
+2. Wind tunnel testing; Aeroelasticity_x000D_
+3. Flow separation_x000D_
+4. Rotor aerodynamics_x000D_
+5. Buffeting_x000D_
+6. Flutter_x000D_
+7. Shock wave-boundary layer inter-action_x000D_
+8. Buzz_x000D_
+9. Surging_x000D_
+10. Rotating stall"
+1A11,External Noise Prediction,1A0,"External Noise Prediction - Prediction of aircraft noise in view of reducing community annoyance around airports and heliports. This includes jet aeroplanes, propeller aeroplanes, and helicopters. Studies are mainly focussed on transport aviation, but military aircraft and general aviation also are of concern. In each of the following sub-domains, one has to deal with three main activities._x000D_
+_x000D_
+- Analytical or numerical simulations. _x000D_
+_x000D_
+- Tests in static facilities, in wind tunnels, or in flight. _x000D_
+_x000D_
+Optimisation of novel designs. - 1. Turbofan or turbojet engines_x000D_
+_x000D_
+2. Helicopter turboshaft engines_x000D_
+_x000D_
+3. Propeller (high speed and general aviation)_x000D_
+_x000D_
+4. Helicopter rotors (main rotor, tail rotor)_x000D_
+_x000D_
+5. Airframe-generated noise (high lift devices, landing gears)_x000D_
+_x000D_
+6. Installation effects of engines_x000D_
+_x000D_
+7. Sonic boom of supersonic aircraft_x000D_
+_x000D_
+includes ARDEP Sub domain NOIS of ENV domain"
+1A6,Wing Design,1A0,"Wing Design - The main objective of the wing design is the minimisation of the drag in cruise conditions :_x000D_
+_x000D_
+- Lift induced drag, through appropriate platform, twist design or through wing tip devices (winglet, wing tip sail, tip turbine,?);_x000D_
+_x000D_
+- viscous drag, through airfoil section shaping to avoid separation of turbulent boundary layer;_x000D_
+_x000D_
+- Shock wave drag, controlled in order to prevent strong interaction with boundary layer (no separation). _x000D_
+_x000D_
+On the other hand, improvements are searched on aerodynamic interactions, in particular wing-body, propulsion installation and static margin in order to reduce the trim drag._x000D_
+_x000D_
+The wing design uses the last improvements of CFD with numerical optimisation tools and now some multidisciplinary constraints are included in the process._x000D_
+_x000D_
+For the design of flexible wing like rotorcraft blade, coupling methods are used where structural deformations are taken in account. In some cases acoustic constraints are also introduced._x000D_
+_x000D_
+On missiles, the design of control surfaces is mainly driven by hinge moment constraint. - 1. Computational Fluid Dynamics_x000D_
+_x000D_
+2. Wind Tunnel Testing_x000D_
+_x000D_
+3. Drag reduction_x000D_
+_x000D_
+4. Wing tip device_x000D_
+_x000D_
+5. Multidisciplinary optimisation_x000D_
+_x000D_
+6. Flexible wing_x000D_
+_x000D_
+7. Noise reduction"
+1A7,Aerodynamic of External and Removable Items,1A0,"Aerodynamic of External and Removable Items - The spreading out of landing gears which provokes an increase of the drag and a negative pitching moment which can modify the behaviour of the aircraft and these aerodynamic phenomena have to be taken in account in flight model for the approach phase and take-off. On the other part, the landing gears increase the aerodynamic noise and some solutions are searched to minimize this nuisance._x000D_
+_x000D_
+Antenna but also mainly pods are also sources of extra drag and possible aeroelastic problems. The external carriage of stores causes a drag penalty for the aircraft. Fuel tanks (and missiles for military aircraft) dramatically reduce the range of the aircraft and induce modifications of the static margin. At transonic speeds, unstable shock waves are located on stores and can cause damages on control surfaces. Store carriage optimisation aims at reducing drag penalty (conformal pack), flow unsteadiness as well as radar signature._x000D_
+_x000D_
+Evaluation of store trajectories during release is needed for flight security. - 1. Computational Fluid Dynamics_x000D_
+_x000D_
+2. Wind Tunnel Testing_x000D_
+_x000D_
+3. Aerodynamic noise_x000D_
+_x000D_
+4. Unsteady flow_x000D_
+_x000D_
+5. Radar signature_x000D_
+_x000D_
+6. Landing Gear_x000D_
+_x000D_
+7. Flight / Ground Tests_x000D_
+_x000D_
+8. Pod"
+1A9,Wind Tunnel Measuring Techniques,1A0,"Wind Tunnel Measuring Techniques - Conventional measuring techniques mostly rely upon strain gauges and temperature sensors. Non intrusive optical measuring techniques are able to visualise the flow structure and to provide quantitative data relative to both surface characteristics (pressure distribution, transition detection, etc.) and flow field properties (mainly velocity and turbulence). - 1. Pressure: (un)steady pressures, Pitot/multihole probes, PSP (Pressure Sensitive Paints)._x000D_
+_x000D_
+2. Temperature and heat flux: Infrared Thermography, thermocouples, hot wire, hot film._x000D_
+_x000D_
+3. Velocity: LDV (Laser Doppler Velocimetry), PIV (Particle Image Velocimetry), DGV (Doppler Global Velocimetry)._x000D_
+_x000D_
+4. Flow visualisation: Schlieren technique, shadowgraphy, laser tomoscopy, Rayleigh scattering, interferometry._x000D_
+_x000D_
+5. Surface visualisation: oil film, mini-tufts, infrared or sublimation transition detection._x000D_
+_x000D_
+6. Forces, moments: strain-gage balances (6-component or local loads)._x000D_
+_x000D_
+7. Model attitude/deformation: potentiometers, accelerometers, photogrammetry, moiré."
+1A1,Computational Fluid Dynamics,1A0,"Computational Fluid Dynamics - Computational Fluid Dynamics (CFD) consists in the development, validation, and use of software tools for the numerical simulation of fluid flows past aerodynamic vehicles. CFD is a discipline necessitating the knowledge of applied mathematics, fluid dynamics and computer sciences. Different levels of modelling are used for solving the governing partial differential equations of fluid flows (incompressible or compressible, inviscid or viscous...). Physical models have to be validated and calibrated by comparison with experimental data. Geometry of flow domain and boundary and initial conditions must be taken into account properly. Discretised equations are solved through numerical schemes and algorithms aiming at accuracy, efficiency and robustness. The computer codes are run on scalar or parallel computers along the following steps: After the grid generation (or adaptation), the CFD solver is run before post-processing and visualisation of the results. CFD is used for understanding physics by flow analysis, for performance prediction of complex aerodynamic configurations and for flow control or optimum design studies. - 1. Physical modelling (turbulent, reactive flows…)_x000D_
+2. Development of numerical schemes and algorithms_x000D_
+3. Development and production of CFD software_x000D_
+4. Validation of CFD software_x000D_
+5. Grid generation and adaptation_x000D_
+6. High Performance computing (vector and parallel processing)_x000D_
+7. Complex CFD applications"
+1A10,Computational Acoustics,1A0,"Computational Acoustics - Computational methods for the numerical propagation of sound through internal and external flows. Computational predictions are most often split into noise source modelling and numerical simulation of acoustic propagation. Noise source modelling is strongly problem-dependent (turbulence, blade loads fluctuations, cavity resonances, combustion, vibrations) and is assumed to be covered by domain 302. _x000D_
+_x000D_
+Methods for the numerical propagation of sound through internal and external flows can be split into two categories, (1) integral methods and (2) discretised methods. _x000D_
+_x000D_
+1. Integral methods mostly used for external problems in which acoustic propagation is assumed by the analytical Green's function in free field and uniform flow. The sound is computed at any observer point through a surface or volume integral. _x000D_
+_x000D_
+2. Discretized methods assume the discretisation of relevant continuous equations over the propagation medium. Flow non-homogeneities (spatial and temporal) are taken into account from CFD results. Internal and external flows are concerned. - 1. Noise source modelling._x000D_
+_x000D_
+2. Numerical simulation of acoustic propagation.meters, accelerometers, photogrammetry, moiré."
+1A3,Aeronautical Propulsion Integration,1A0,"Aeronautical Propulsion Integration - 1. For aircraft, the design of powerplant installation aims to minimise the installation drag by avoiding the separation on the pylon or on the wing in all the flight envelope, particularly at low lift coefficient. New installations are studied in order to reduce the noise, for example by engine location on the upper side of the wing or with semi-buried engines. Experimental tests on models in wind tunnels need to use TPS techniques for simulating the mass flow rate into the nacelle and its effect on the flow around the wing. _x000D_
+2. For rotorcraft, the aims of the studies are to minimise the hub drag and the interaction drag and to reduce the aerodynamic noise. Some works concern the design of air intakes in relation to airflow through the rotor and of the nozzle in order to reduce the heat transfer on the rear part of the fuselage (infrared signature). _x000D_
+3. For airbreathing missile, the air intakes are optimised to take in account some constraints of furtivity (RCS) and assume a good efficiency at high angle of attack. Some devices are necessary to prevent the separation of the flow on thin lips or in the S-shape diffuser. - 1. Computational Fluid Dynamics_x000D_
+2. Wind Tunnel Testing_x000D_
+3. Air intake_x000D_
+4. Nozzle_x000D_
+5. Drag reduction_x000D_
+6. Flow separation_x000D_
+7. Air flow control_x000D_
+8. Infrared Signature_x000D_
+9. Radar signature_x000D_
+10. Noise reduction"
+1A4,Airflow Control,1A0,"Airflow Control - In this recent and promising area, a lot of devices are searched to act on the boundary layer, on shock-boundary layer interaction, on separation or on vortex development in order to :_x000D_
+- reduce the drag by active or passive means;_x000D_
+- develop new concepts for improving the behaviour or the control of the aircraft near the limits of the flight envelope or to extend the flight envelope;_x000D_
+- minimise the effect of wake behind large aircraft in take-off or landing configurations. _x000D_
+The control systems concern civil aircrafts, fighters and rotor blades and can be passive or active. MEMS can also be used. For controlling the boundary layer separation due to shock or adverse pressure gradient, the main devices are vortex generators, bump, cavity (passive control) and fluidic systems (blowing or synthetic jet). To reduce the friction drag of turbulent boundary layer, riblets or MEMS can be used. The delay of the transition location is obtained through laminar flow control techniques. The vortex control is realised by mechanical (leading edge flaps) or pneumatic device (forebody and wing vortices). Trailing edge vortex control can be made with adapted trailing edge flaps. Optimisation of rotor blades is also searched to get less vibration and less noise by means of active control without diminishing aerodynamic efficiency (mechanical or pneumatic system).For stealth subsonic airbreathing missile, control devices are needed to prevent separation of the airflow in the short S duct. - 1. Computational Fluid Dynamics_x000D_
+2. Wind Tunnel Testing_x000D_
+3. Drag reduction_x000D_
+4. Laminar flow_x000D_
+5. Transition/turbulence_x000D_
+6. MEMS_x000D_
+7. Vortex generator_x000D_
+8. Wing tip device_x000D_
+9. Synthetic jet_x000D_
+10. Blowing flap_x000D_
+11. Bump riblet"
+1A5,High Lift Devices,1A0,"High Lift Devices - Main objectives of the studies related to high lift devices are :_x000D_
+_x000D_
+- to reduce take-off and landing distances ;_x000D_
+_x000D_
+- to get simpler and lighter high lift systems (typically 3 airfoils) with the same efficiency than more complex systems ;_x000D_
+_x000D_
+- to reduce aerodynamic noise. _x000D_
+_x000D_
+The first topic concerns civil transport and military aircraft. Because the high sweep angle of the wing of supersonic transport and combat aircraft, the leading edge and trailing edge flaps have to be efficient at higher angles of attack for the landing._x000D_
+_x000D_
+The multi-surface lifting arrangement is very sensitive to viscous effects due to the very closed interactions between wakes and boundary layers._x000D_
+_x000D_
+Specific distributions of the lift along the wing are also studied in order to modify the topology of the vortices in the wake of big aircraft. - 1. Computational Fluid Dynamics_x000D_
+_x000D_
+2. Wind Tunnel Testing_x000D_
+_x000D_
+3. Multi-surface airfoil_x000D_
+_x000D_
+4. Leading edge flap; trailing edge flap_x000D_
+_x000D_
+5. Noise reduction_x000D_
+_x000D_
+6. Wake vortex_x000D_
+_x000D_
+7. Air traffic management_x000D_
+_x000D_
+8. Certification Requirements"
+1A8,Wind Tunnel Testing /Technology,1A0,"Wind Tunnel Testing /Technology - Wind tunnels are essentially used in R&D to study flow phenomena and to simulate on scaled models the aerodynamics of any aircraft or other aerodynamically relevant object. Geometry, Mach number and Reynolds number are, in that order the main similarity conditions for a precise (nearly exact) simulation. Other conditions may apply (e.g. inertia, real gas...). Depending on what needs to be simulated, numerous (100) techniques have been developed, some common to most tunnels, some more specific to a certain class of facilities. - 1. Model design/manufacturing: concurrent engineering, from CFD to CAD/CAM, quick prototyping systems._x000D_
+_x000D_
+2. On-line data acquisition/reduction systems: high sampling rates for unsteady flows, handling of large data bases, standardised data presentation._x000D_
+_x000D_
+3. Wind tunnel flow conditioning: flow quality survey/improvement (angularity, turbulence, noise), high Reynolds number simulation (pressure, cryogenics), high enthalpy tunnels._x000D_
+_x000D_
+4. Full or semi-span model common techniques: global & local loads, pressures, boundary layer transition checking, aerodynamic coefficients, buffeting boundaries, visualisations, model support and wall interference correction/reduction._x000D_
+_x000D_
+5. Airframe/propulsion integration: air intakes, nozzles/afterbodies, motorised nacelles, propellers, helicopter rotors, stealth._x000D_
+_x000D_
+6. Flow/surface flow survey: by intrusive and/or non intrusive means._x000D_
+_x000D_
+7. Specific techniques such as : Aeroacoustics, Aeroelasticity/flutter, Jettison (free drop & captive trajectory),_x000D_
+_x000D_
+Ground effect, Dynamic derivatives, Heat transfer (hypersonic)."
+1A0,Flight Physics,,Flight Physics -  -
+1B0,Aerostructures,,Aerostructures -  -
+1B8,Smart Materials and Structures,1B0,"Smart Materials and Structures - This domain consists in to equip structures with sensors, actuators and intelligence in order to give them some autonomy, adaptation capabilities or reduce the operational costs or nuisances (noise ...). The sensors provide the knowledge of the internal state and of the external environment. The actuators give the ability to adapt to internal and external changes. The intelligence permits the autonomous capacity to decide the optimal way of adaptation. - 1. Miniaturisation of sensors (piezoelectric devices, optical fibers,..)
+
+2. Integration of sensors
+
+3. Active Piezoelectric materials
+
+4. Electrostrictive materials
+
+5. Single crystals
+
+6. Magnetostrictive materials
+
+7. Electrorheological
+
+8. Shape memory alloys
+
+9. Actuators
+
+10. Micro-motors
+
+11. Control strategies
+
+12. Multi-functional materials
+
+13. Health Monitoring System
+
+14. Control of vibration
+
+15. Shape Control
+
+16. Active flow Control
+
+17. UAV, mini UAV"
+1B12,Noise Reduction,1B0,"Noise Reduction - 1. Internal noise reduction. Active Control. The aim is to decrease the level of noise due to the vibrations of structures with the use of active control algorithms able to take into account different noise sources, i.e. wide band excitations._x000D_
+_x000D_
+2. External noise reduction. Reduction at the source; acoustic absorbing materials (passive and adaptive)._x000D_
+_x000D_
+Link with ATM and Human Factors (noise perception). - 1. Active Control algorithms_x000D_
+_x000D_
+2. Techniques in relation with actuators and sensors such as piezoelectric or piezoceramic materials,_x000D_
+_x000D_
+electrostrictive ceramics… and their mechanical modellisation._x000D_
+_x000D_
+3. Automatics and real time systems for the study and for the realisation of controllers_x000D_
+_x000D_
+4. Optimisation of the location of patches on the structures_x000D_
+_x000D_
+5. Modal identification of structures_x000D_
+_x000D_
+6. Knowledge of noise sources and identification of acoustic leaks_x000D_
+_x000D_
+7. Acoustic measurements for the validation of Active Control_x000D_
+_x000D_
+8. Sources:_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+8.1. Optimisation of aerodynamic and acoustic performance through new design of fan blade and vanes,_x000D_
+_x000D_
+advanced propellers (possibly uneven spaced), and helicopter rotors._x000D_
+_x000D_
+8.2. Novel aircraft designs to mask some sources, or to alleviate installation effects (interactions) on noise_x000D_
+_x000D_
+generation._x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+9. Acoustic linings:_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+9.1. New concepts of passive or adaptive materials_x000D_
+_x000D_
+9.2. Extensions to high temperatures on the exhaust duct_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+10. Noise abatement procedures"
+1B1,Metalic Materials & basic processes,1B0,"Metalic Materials & basic processes - High temperature materials for engines and light alloys for airframe. Improvement of the properties of already in use materials, improvement of materials in the process of being introduced, prospection and development of new materials. Development of new assembling technologies and the corresponding modelling (link with 204 and 205). Development of specific tools for materials processing (alloy making furnaces, powder metallurgy, deposition techniques, oxidation and corrosion furnaces, heat treatments furnaces, machining facilities). Techniques of physico-chemical and microstuctural investigations (Xray analysis, scanning electron microscopy and microanalyses). Mechanical characterisation. - 1. Superalloys_x000D_
+_x000D_
+2. Aluminium alloys_x000D_
+_x000D_
+3. Titanium aluminides_x000D_
+_x000D_
+4. New weldable alloys_x000D_
+_x000D_
+5. Coatings_x000D_
+_x000D_
+6. Oxidation, corrosion_x000D_
+_x000D_
+7. Assembling processes_x000D_
+_x000D_
+8. Repairing processes_x000D_
+_x000D_
+9. Microscopical analyses_x000D_
+_x000D_
+10. Chemical analyses_x000D_
+_x000D_
+11. Mechanical testing"
+1B2,Non-Metallic Materials & basic processes,1B0,"Non-Metallic Materials & basic processes - Organic and ceramic materials in different forms (film, monolith, fibre). Surface protection (oxidation, corrosion, thermal barrier), ceramics for structural and electrical engineering (blades and hot parts of engines, electromagnetic windows, ball bearing, electric insulators, fibres and nanotubes), processing routes (PVD, CVD, sintering, reaction-bonding, directional solidification, cold and hot isostatic pressing, melting and spinning, laser ablation and electric discharge). - 1. Carbide and nitride of silicon_x000D_
+_x000D_
+2. Organometallic precursors of ceramics (alkoxides and organosilicon polymers)_x000D_
+_x000D_
+3. Organic precursors of carbon (PAN, pitch)_x000D_
+_x000D_
+4. Glass and glass-ceramics_x000D_
+_x000D_
+5. silica_x000D_
+_x000D_
+6. cordierite_x000D_
+_x000D_
+7. metallic sulphides and fluorides_x000D_
+_x000D_
+8. Polyethylene_x000D_
+_x000D_
+9. aramid, glass_x000D_
+_x000D_
+10. carbon and boron nitride nanotubes_x000D_
+_x000D_
+11. thermal barrier coatings_x000D_
+_x000D_
+12. Piezoelectric"
+1B7,"Buckling, Vibrations and Accoustics",1B0,"Buckling, Vibrations and Accoustics - Activity on buckling consists of the development, improvement and validation of experimental and numerical methods for the prediction of buckling phenomenon and optimisation of structural components (metallic and composite materials) in aerospace domain. Vibrations and Vibro-Acoustics: Objectives of the structural dynamic are to determine the dynamic behaviour of structural systems excited by external or internal forces (mechanical, aerodynamics or acoustic) in order to guarantee the integrity of the structure in the environment and the comfort of the users. The objectives of the vibro-acoustics are the same for a structure coupled with a fluid. Two types of problems can be consider. The first type concerns the internal noise generated by vibrating structures. The second type concerns the acoustic discretion where the external noise is generated by vibrating structure. The studies concern the physical understanding of the mechanic and acoustic phenomena?s, their description, their quantification with theoretical, numerical and experimental means. - 1 - Structural dynamics:_x000D_
+_x000D_
+1.1. Structural dynamic modelling: Material modelling (viscoelastic media, composites, multilayer structure);_x000D_
+_x000D_
+Numerical method( (Analytical, Finite Element analysis), Statistic Energy Analysis); Linear and non linear analysis; Damping modelling; Structure internal fluid interaction (sloshing)._x000D_
+_x000D_
+1.2. Multibody dynamics modelling: Kinematics and dynamics of rigid and flexible components_x000D_
+_x000D_
+1.3. Stress Waves in Solids: Waves propagation_x000D_
+_x000D_
+1.4. Structural Model updating_x000D_
+_x000D_
+1.5. Dynamic Structural optimisation_x000D_
+_x000D_
+1.6. Shocks and vibrations: Transient response, Low frequency range, Medium and high frequency ranges_x000D_
+_x000D_
+1.7. Random Vibrations in Structural Mechanics: Linear and non-linear systems, Random excitation (turbulence, noise, acoustic)_x000D_
+_x000D_
+1.8. Experimental Methods in Vibrations: Vibration properties of materials, Vibration technique in nondestructive testing, Systems excitations, transducers, Data acquisition, Signal processing and analysis, _x000D_
+_x000D_
+1.9- Experimental Modal Analysis, FRF measurements_x000D_
+_x000D_
+2 - Elasto-acoustic:_x000D_
+_x000D_
+2.1. Material properties: Homogeneous material, composites, viscoelastic media, multilayer, etc.; Acoustic material_x000D_
+_x000D_
+2.2. Modelling: Analytical approaches, Finite element analysis, Boundary Element analysis, Statistic Energy Analysis_x000D_
+_x000D_
+2.3. Sound Structure Interaction: Acoustic propagation, Acoustic radiation, Acoustic transmission through structures, Acoustic reflection from elastics structures, Acoustic excitation, Acoustic fatigue, Structure and fluid damping_x000D_
+_x000D_
+2.4. Experimental Identification"
+1B9,Structures behaviour and Material Testing,1B0,"Structures behaviour and Material Testing - Development and use of test facilities in order to get inputs for prediction tools (material properties characterisation of metallic and composite materials), validate prediction tools (determination of local or/global information such as strain, stress, plasticity, cracks, delamination phenomenon, . .) and to verify the behaviour of sub-components or real structure (limit strength, fatigue behaviour, . ..) - 1. Constitutive laws (metallic and composite materials)_x000D_
+_x000D_
+2. Experimental static component behaviour_x000D_
+_x000D_
+3. Non-linear characterisation with and without temperature environment_x000D_
+_x000D_
+4. Buckling testing_x000D_
+_x000D_
+5. Diffusitivity measurements (thermal properties. NDT)_x000D_
+_x000D_
+6. Electrical and electromagnetic properties measurements (NDT)_x000D_
+_x000D_
+7. Optical properties (NDT)_x000D_
+_x000D_
+8. X Ray radiography (NDI)_x000D_
+_x000D_
+9. Ultrasounds with and without contact (Air coupled or laser)_x000D_
+_x000D_
+10. Eddy Current (NDI)_x000D_
+_x000D_
+11. Thermography method (NDI)_x000D_
+_x000D_
+12. Optical techniques (holography, shearography, Moire)"
+1B10,Internal Noise prediction,1B0,"Internal Noise prediction - Activity on internal noise prediction consists of the development, improvement and validation of experimental and numerical methods for the prediction and the reduction of internal noise (aeroplane, helicopter, launcher). This activity is a part of the Vibration and Vibroacoustic domain. To solve an Internal Noise_x000D_
+_x000D_
+Problem, we need the knowledge of the excitation sources, the dynamic behaviour of the structure, the propagation way of the vibration in the structure and in the internal fluid. - 1. Material properties: Homogeneous material, heterogeneous structure, Composite material, viscoelastic media, multilayer, etc., Acoustic material, porous material, Material optimisation._x000D_
+_x000D_
+2. Modelling: Analytical approaches, Finite element analysis, Boundary Element Analysis, Statistic Energy Analysis, Energy diffusion;_x000D_
+_x000D_
+3. Excitation sources: mechanic, aerodynamic, acoustic; Acoustic propagation, Acoustic radiation, Acoustic transmission through structures, Acoustic reflection from elastics structures._x000D_
+_x000D_
+4. Experimental Identification."
+1B5,Structural Analysis and Design,1B0,"Structural Analysis and Design -  Structural analysis and design consist in all the steps necessary to guarantee that any structural part will be able to fulfil its requirements. It encompasses the conception and design (with links with CAD) and the prediction/verification of strength to static loads (stress analysis) and low amplitude cycling loads (fatigue). The effects of the environment (such as ageing, thermal loads, moisture effects, . . .) are included in this domain. - 1. Metallic Material constitutive laws (linear elasticity, plasticity, viscolelasticity)_x000D_
+_x000D_
+2. Composite laws (linear and non-linear domains)_x000D_
+_x000D_
+3. Numerical methods (finite element, solving methods)_x000D_
+_x000D_
+4. Composite and multilayer structure modelling_x000D_
+_x000D_
+5. Static Stress analysis with damage and failure criteria_x000D_
+_x000D_
+6. Fatigue behaviour analysis with crack initiation and propagation_x000D_
+_x000D_
+7. Multi-scale modelling methods for CMC, OMC and MMC materials_x000D_
+_x000D_
+8. Buckling (linear and non-linear approaches) for metallic components_x000D_
+_x000D_
+9. Buckling for composite structures with or without stiffener_x000D_
+_x000D_
+10. Post-buckling (crack initiation and delamination propagation)_x000D_
+_x000D_
+11. Assembling modelling (rivets, bonding, FSW techniques,..)_x000D_
+_x000D_
+12. Optimisation methods"
+1B3,Composite Materials & basic processes,1B0,"Composite Materials & basic processes - Life prediction (residual stress, damage propagation, oxidation and corrosion) and multi-scale modelling taking into account the fibre/matrix interface. Development of micromechanical characterisation tools (instrumented microindentation at room and high temperature, push-out and push-in). Ceramic Matrix Composites (CMC) : hot parts for turbine engine (nozzle flaps, thrust vectoring nozzles, flame-holder, exhaust cones), rocket propulsion (thrust chambers, exit nozzles and nozzle throats) and thermal protections. Composites reinforced with long fibres or fillers. Processing routes (sintering, hot pressing, reaction bonding, liquid infiltration, chemical vapour infiltration). Organic Matrix Composites (OMC) : main body and wings for both subsonic or hypersonic aeroplanes and helicopters, outer ducts for engines, tanks, structural components for satellites and rockets, thermal protections. Short or long fibre composites, compounds (premix or nanotubes). Processing routes (press moulding, autoclave, RTM, filament winding, tow placement). Metal matrix composites (MMC) : aero-engines hot parts (compressor disks, drive shafts, blades) and structural components (aircraft landing gear, rocket motor casing, missile fins, satellite antennas). Continuous fibre-reinforced and particulate-reinforced composites. Processing routes (liquid infiltration under moderate pressure, fibre coating and HIPing, powder metallurgy). - 1. CMC: matrices (carbide and nitride of silicon, glass-ceramics, carbon) ; fibres (silicon carbide, carbon,oxide) and fillers (silicon carbide)._x000D_
+_x000D_
+2. OMC: matrices (thermosetting resins, thermoplastic polymers, thermostables and elastomers); reinforcement by fibres (carbon, polyethylene, polyaramide, glass, plant fibres) and by particles (mineral, nanotubes)._x000D_
+_x000D_
+3. MMC: matrices (conventional titanium alloys, titanium luminides, nickel-based superalloys, aluminium and magnesium alloys); fibres (silicon carbide, alumina, carbon) and particles (carbides)._x000D_
+_x000D_
+4. Elaboration processes._x000D_
+_x000D_
+5. Repairing processes"
+1B4,Advanced Manufacturing Processes & Technologies,1B0,"Advanced Manufacturing Processes & Technologies - Advanced Manufacturing Engineering processes involve the design, production engineering and transition to factory operation of competitive manufacturing processes, techniques, methods and tools. - 1. Flexible Manufacturing_x000D_
+_x000D_
+2. Robotics_x000D_
+_x000D_
+3. composite components_x000D_
+_x000D_
+4. fibre-metal laminates_x000D_
+_x000D_
+5. Ribbon Organised Wiring_x000D_
+_x000D_
+6. High speed machining: metal parts_x000D_
+_x000D_
+7. Fabrication simulation: all kind of manufacturing processes to reduce start up time_x000D_
+_x000D_
+8. Welding technologies_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+8.1. Friction stir welding : metal structures_x000D_
+_x000D_
+8.2. Laser beam welding: metal structures_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+_x000D_
+9. Explosive forming_x000D_
+_x000D_
+10. Advanced castings_x000D_
+_x000D_
+11. Super plastic forming: metal structures, in particular titanium_x000D_
+_x000D_
+12. Resin transfer moulding: composite structures_x000D_
+_x000D_
+13. Tau placement: automated fibre placement, composite structures_x000D_
+_x000D_
+14. Thermo-plastics: composite structures_x000D_
+_x000D_
+15. Riveted Joint_x000D_
+_x000D_
+16. Bonded Joint_x000D_
+_x000D_
+17. Conformal antennas_x000D_
+_x000D_
+18. Additive Manufacturing"
+1B13,Accoustics Measurements and Test Technology,1B0,"Accoustics Measurements and Test Technology - Acoustic measurements deal with pressure field using microphones and pressure transducers, in association if needed with other probes, as accelerometers or DLV. It constitutes the basis for experimental studies concerning noise pollution, noise reduction, acoustic detection and ranging, and acoustic fatigue. Depending of the application, attention is focused on the radiated far-field (vehicle certification), the near acoustic field (cabin noise, vibro-acoustics), the characterisation of noise sources (physical phenomena responsible for vehicle noise emission such as turbomachinery noise, jet noise, airframe noise, installation effects), the acoustic imaging (detection and ranging). Measurements are made at model scale (anechoic room, wind-tunnels) or at full scale. Acoustic measurements are strongly coupled with signal processing, in particular concerning localisation and active noise control. They are also strongly interested in psychoacoustics and the definition of noise annoyance indicators. - 1. Sensors and transducers: condenser microphone, loudspeakers, acoustic driver, accelerometer, sound intensity probe, smart transducer, pistonphone, DLV_x000D_
+_x000D_
+2. Units: physical units (Pa, dB), psychoacoustical units (dBA, PNdB, EPNdB, Leq,…)_x000D_
+_x000D_
+3. Common measurements: calibration, absorption, convection, refraction, reverberation, near-field and farfield, intensimetry_x000D_
+_x000D_
+4. Machinery and airframe noise measurements: anechoïc room, reverberation chamber, wind tunnel, flight tests, internal and external noise_x000D_
+_x000D_
+5. Noise source localisation and ranging: microphone array, acoustic mirror_x000D_
+_x000D_
+6. Acoustic signal recording and processing: narrow band frequency analysis, third octave and octave bands, correlations, random noise, impulsive noise_x000D_
+_x000D_
+7. Certification procedures_x000D_
+_x000D_
+8. Acoustic detection_x000D_
+_x000D_
+9. Active noise control"
+1B14,Aircraft Security,1B0,"Aircraft Security - Aircraft security measures are the physical protection measures required in order to protect the aircraft and the passengers and crew when they are on-board. - 1. Flight deck barrier devices (e.g. impenetrable cockpit doors)_x000D_
+_x000D_
+2. Bomb-proof cargo containers (to contain effects of explosions)_x000D_
+_x000D_
+Comment: see also Area 'AIRCRAFT AVIONICS SYSTEMS & EQUIPMENT'"
+1B6,Aeroelasticity,1B0,"Aeroelasticity - Study of flexible structures situated in a flowing fluid. The origins are in the field of aerospace engineering (aeroplanes, helicopters rotors, turbomachineries, launchers and missiles), but aeroelasticity concerns also civil engineering (bridges, towers), mechanical and nuclear engineering. The first objective of aeroelasticity is to guarantee the integrity of the structure in the flow. Aeroelasticity is the study of the mechanics of coupled aerodynamics-structure systems: the structure is taken in the usual mechanical sense of the term, which is to say that it includes the passive structure and the structured coupled to control systems (flight controls, control law). In fact, the term aero-servo-elasticity is often used. High temperature environments can be important in aeroelastic problems, hence the terms aero-thermo-elasticity. So aeroelasticity incorporates the theory of continuum mechanics, fluid mechanics, and automatic systems. The scientific fields concerned, then, are steady and unsteady aerodynamics, the static and dynamic structure with its linear or non-linear properties, the servo controls, also with their linear and non-linear properties, and the coupling loop between the aerodynamics, the structure, and the systems. Aeroelastics problems can be static and dynamic: In dynamic aeroelasticity, there is a further subdivision of problems into two broad types. The first type is when the flow is unsteady and the structure is in a steady position, but behaves dynamically. This is the case of problems having to do with atmospheric turbulence, boundary layer separation, and shock wave-boundary layer interaction. Buffeting also enters into this category of problems. The second type of general aeroelasticity problem has to do with those aeroelastic instabilities where the motion of the structure causes the forces, in that the aerodynamic forces do not exist without this motion. Flutter falls into this category and is the most important topic of aeroelasticity. - 1. Static aeroelasticity: Linear and non linear structure, Steady Aerodynamic, Static deformation, Static divergence, Aeroelastic optimisation._x000D_
+_x000D_
+2. Dynamic aeroelasticity: Structural dynamic (linear and non linear), Unsteady aerodynamic (linear and non linear), Fluid structure coupling, Fluid structure systems coupling, Flutter, Forced response._x000D_
+_x000D_
+3. Numerical aeroelasticity: Unsteady aerodynamic, Stability and response prediction, Aeroelastic optimisation, (multidisciplinary optimisation), Aeroelastic model updating, Aero-servo-elasticity._x000D_
+_x000D_
+4. Experimental aeroelasticity: Unsteady aerodynamic, Flutter model (design, manufacture, ground testing, wind tunnel testing)._x000D_
+_x000D_
+5. Aeroelastic Certification: Ground vibration test, Flutter flight test."
+1B11,Helicopter Aeroacoustics,1B0,"Helicopter Aeroacoustics - Helicopter aeroacoustics consists in:_x000D_
+_x000D_
+- studying and identifying the aerodynamic phenomena causing noise generation and influencing noise radiation. The occurrence of these phenomena and their relative contributions to noise, strongly depend on flight conditions (take-off, descent, level flight at low, medium and high speed) and on the type of helicopter._x000D_
+_x000D_
+- Developing and validating computational tools for prediction of helicopter noise with the following objectives:_x000D_
+_x000D_
+- quantification of helicopter nuisance,_x000D_
+_x000D_
+- quiet helicopter design (rotor, turboshaft air intake and acoustic lining),_x000D_
+_x000D_
+- determination of low noise flight procedures (for civil applications)_x000D_
+_x000D_
+- determination of low detectability manoeuvres and flight procedures (for military purposes). Helicopter noise sources comprise main and tail rotors and turboshaft engines. Research activities consist in:_x000D_
+_x000D_
+- physical modelling and numerical simulations,_x000D_
+_x000D_
+- wind tunnel or static tests and helicopter flight tests._x000D_
+_x000D_
+Key issues for an accurate numerical prediction of helicopter noise are:_x000D_
+_x000D_
+- for rotor noise, a precise prediction of the main rotor wake and vortices which may interact with main rotor and even tail rotor blades, depending on flight conditions._x000D_
+_x000D_
+- for turboshaft engine noise, a precise prediction of acoustic propagation in the complex flow and geometry of the engine air intake. - 1. Sub-domains according to the origin of the sources:_x000D_
+_x000D_
+1.1. main rotor noise_x000D_
+_x000D_
+1.2. tail rotor noise_x000D_
+_x000D_
+1.3. turboshaft engine noise_x000D_
+_x000D_
+2. Sub-domains according to the nature of noise:_x000D_
+_x000D_
+2.1. discrete frequency noise related to periodic aerodynamic phenomena_x000D_
+_x000D_
+The nuisance from helicopter rotors is very much increased when a certain type of discrete frequency noise called helicopter rotor impulsive noise occurs. This impulsive noise includes Blade Vortex Interaction (BVI) noise in descent and low-to-medium level flight and High Speed Impulsive noise (HSI)._x000D_
+_x000D_
+2.2. broadband noise, mainly due to interactions between rotating components (rotor and compressor blades) with incoming turbulence."
+1C13,Computational methods,1C0,"Computational methods - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Computational methods for propulsion consist in the development, validation, and use of software tools for the numerical simulation of physical phenomen taking place in propulsion devices, such as turbine engines, jet engines, rocket motors (liquid and solid propellants), missiles, ramjets, launchers. The numerical codes must provide capabilities for treating multi-physics situations implying multi-species, multi-phases, turbulent, chemically reacting flows with heat transfers from convective and radiative processes and strong fluid-structure couplings. This necessitates the knowledge of applied mathematics, numerical methods, computer sciences and physical modellings. Physical models and the codes where they are made available have to be validated and calibrated by comparison with experimental data. In particular physical, thermodynamic and chemical properties are of major importance, as well as input data for the models used in numerical simulations and may require dedicated experiments to be acquired. Unsteady flows are of major concern as instabilities, transient flows and noise generation are often critical aspects of propulsion devices. Emissions (pollutants, noise, radiation, ...) are often to be controlled and must receive special attention. Computations often include complex, hostile conditions and stiff mechanisms which require high computational power, robustness and efficiency. Grid tailoring and grid adaptation is often mandatory, as well as parallel computing and code coupling. The computer codes are run along the following steps: After the grid generation (or adaptation), the solver are run and data are eventually exchanged between solvers before post-processing and analysis of the results. Numerical simulations are used for understanding physics of complex situations for performance prediction and for flow control or system design studies._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 313)_x000D_
+_x000D_
+ _x000D_
+_x000D_
+ _x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Physical modelling (turbulent, heat transfer, reactive flows, two-phase flows, radiative medium…)_x000D_
+_x000D_
+2. Unsteady flows, vortex flows, aeroacoustics_x000D_
+_x000D_
+3. Development of numerical schemes and algorithms_x000D_
+_x000D_
+4. Code coupling, multi-physics, multi-scale simulations_x000D_
+_x000D_
+5. Development and production of software_x000D_
+_x000D_
+6. Validation of software, model characterisation_x000D_
+_x000D_
+7. Grid generation and adaptation_x000D_
+_x000D_
+8. High Performance computing (vector and parallel processing)_x000D_
+_x000D_
+9. Complex applications, system analysis, control"
+1C10,Test Bench Calibration,1C0,"Test Bench Calibration - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The calibration of a test bench consists of determining all the losses due to the test cell configuration affecting the engine performances (thrust, ..)._x000D_
+_x000D_
+The calibration of the test cell must be determined for a given engine configuration._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 310) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The resulting corrective factors are determined to take into account:_x000D_
+_x000D_
+1. the energy loss due to the boundary layers in the vicinity of the test cell walls_x000D_
+_x000D_
+2. the heterogeneity of the flow field upstream the engine inlet_x000D_
+_x000D_
+3. the aerodynamic forces on the mechanical system maintaining the engine"
+1C8,Auxiliary Power Unit,1C0,"Auxiliary Power Unit - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+APU are subsystems that deliver power, either mechanical, electrical, hydraulic or pneumatic, for specific periods of the aircraft mission, when the main power source (driven by the engines) is no longer available or insufficient , on ground or in flight: on ground before and during engine start, in flight shut downs, special power needs for payload or armaments, more generally every power needs in emergency circumstances. APU include a turbine , and an electric or hydraulic generator to convert mechanical power, and a system for derive compressed air for delivery to other systems such as engine starter or environmental control system (ECS). The generated power is in the range of a few kW up to several 100kW._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 308) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The evolutions have the same goals as those of propulsion turbines: increasing power per kilogram, decreasing fuel consumption, reducing costs through various ways (reduction of part counts, more efficient manufacturing process ,..)_x000D_
+_x000D_
+Another trend is the integration of APU in the broader platform system optimisation including the main power generation, and the main power consumers: in this scope some effective concepts have evolved such as the Integral Power Unit which is a machine integrating on a single shaft the former APU , the electrical generator_x000D_
+_x000D_
+and the ECS compressor and turbine . Such an IPU has a much longer operating time, and a broader operating domain that may open design options to variable cycle concepts."
+1C7,Engine Controls,1C0,"Engine Controls - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Engine control includes two branches:_x000D_
+_x000D_
+- Engine modelling._x000D_
+_x000D_
+- Engine control system architecture and its related equipment (sensors and actuators)._x000D_
+_x000D_
+1. Engine modelling consists:_x000D_
+_x000D_
+- in identifying a mathematical model with the engine actual operating data: such mathematical model is necessary to define the control strategy and loops of the engine during its operations._x000D_
+_x000D_
+- in defining the control algorithms that will be implemented in the control loops._x000D_
+_x000D_
+2. Engine control systems include all sensors, actuators, and regulators or/and computers that determine the operating parameters of the operating engine. Sensors are temperature, pressure, rpm,?; actuators are variable surface (vanes, blade angle settling) control actuators , fuel pumps and metering units; digital computers or hydro-mechanical regulators may be used to build up the control loops. System architecture is influenced by engine architecture and mission profile, by the thermal and dynamic environment created in and around the engine, and available equipment technology._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 307) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Engine modelling is evolving fast with the increase of on-board computing capability: these allow more sophisticated and efficient control strategies by implementation of model based schemes, with identification of model parameters on actual engine operating status, in order to set up operating points based on performance computed parameters instead of single sensor signals. Such innovative strategy allows to reduce operating margins coming from engine to engine dispersion, or ageing, or component wear, and therefore contributes to the increase of engine performance and/or life increase. This is possible thanks to the best advanced mathematics such as fuzzy logic, neuronal networks, Kalman filtering, genetic algorithms,…_x000D_
+_x000D_
+2. Engine control systems are influenced by advances in electronics , sensor and actuator technologies:_x000D_
+_x000D_
+- high temperature ( more than 200C°) electronics allows to incorporate intelligence in the harsh environment of an operating engine, giving the way to smart sensors and actuators, and distributed architecture_x000D_
+_x000D_
+- power electronics allows to shift from hydraulic to electrical actuation with better reliability and maintainability as a benefit for the aircraft operator: more electrical systems allows easier health monitoring, and trouble shooting."
+1C2,Turbomachinery / Propulsion Aerodynamics,1C0,"Turbomachinery / Propulsion Aerodynamics - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The studies of turbomachinery aerodynamics aim to reduce the number of stages and the number of blades in keeping good performances in the thermodynamic cycle. The improvements of compressors and turbines are obtained in taking in account aerodynamic requirements but also mechanical and thermal constraints. For the aerodynamic part, the interactions between the stages are studied in order to evaluate the efficiency of the engine in all the flight envelope and to predict the phenomena onset at the limits of this domain : surging, rotating separation. The optimisation of the blades needs the knowledge of the geometrical effects like tip clearance on performances. - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Computational Fluid Dynamics_x000D_
+_x000D_
+2. Wind Tunnel Testing_x000D_
+_x000D_
+3. Tip clearance effect_x000D_
+_x000D_
+4. Heating flux_x000D_
+_x000D_
+5. surging_x000D_
+_x000D_
+6. Rotating stall"
+1C9,Fuels and Lubricants,1C0,"Fuels and Lubricants - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The evolutions have the same goals as those of propulsion turbines: increasing power per kilogram, decreasing fuel consumption, reducing costs through various ways (reduction of part counts, more efficient manufacturing process ,..)_x000D_
+_x000D_
+Another trend is the integration of APU in the broader platform system optimisation including the main power generation, and the main power consumers: in this scope some effective concepts have evolved such as the Integral Power Unit which is a machine integrating on a single shaft the former APU , the electrical generator_x000D_
+_x000D_
+and the ECS compressor and turbine . Such an IPU has a much longer operating time, and a broader operating domain that may open design options to variable cycle concepts. - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+In a jet engine, a lubricant has two main functions:_x000D_
+_x000D_
+1. lubricate rotating parts such as bearings and gears, to limit wear and friction_x000D_
+_x000D_
+2. evacuate the heat generated between these rotating parts_x000D_
+_x000D_
+Secondary functions can be mentioned, such as remove particles of wear or pollution and protect parts against corrosion."
+1C3,Combustion,1C0,"Combustion - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Combustion in turbomachines is the mean to introduce energy in the system. The quality of the combustion has a direct influence upon a great number of factors and particularly the pollution through gaseous (NOx, CO, unburned hydrocarbons, ...) and soot emissions. The behaviour of the condensed phase (liquid kerosene) has a major impact on the location and the development of combustion and emission. Combustion is of the turbulent type. The accurate prediction of multiphase turbulent combustion supposes the mastering of turbulence itself. In particular, radiation cannot be anymore ignored as it redistributes energy in the volume and thus change the chemical kinetics. So the problem is still very opened and remains strategic considering the particular focus that is made upon pollution. For this study, experimental investigation with sophisticated diagnostic techniques and numerical simulation, averaged or unsteady, remain mandatory. Nitric oxides production being maximum at stoechiometric conditions, combustion processes at lean or rich conditions induce a deep evolution of the combustors. The catalytic combustion is a possible route but the use in aeronautical engines presents some difficulties like lifetime of catalytic substrates. - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. combustion efficiency_x000D_
+_x000D_
+2. injection : atomisation, vaporisation_x000D_
+_x000D_
+3. chemical kinetics_x000D_
+_x000D_
+4. turbulent combustion modelling_x000D_
+_x000D_
+5. radiative transfers_x000D_
+_x000D_
+6. stability_x000D_
+_x000D_
+7. ignition, extinction_x000D_
+_x000D_
+8. instabilities_x000D_
+_x000D_
+9. active control_x000D_
+_x000D_
+10. auto-ignition and flash-back_x000D_
+_x000D_
+11. gaseous emissions_x000D_
+_x000D_
+12. soots_x000D_
+_x000D_
+13. catalytic combustion_x000D_
+_x000D_
+14. diagnostics"
+1C11,Engine Health Monitoring,1C0,"Engine Health Monitoring - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Engine health monitoring is the assessment of engine physical condition by monitoring and interpreting available engine instrumentation and operation cycles, in order to detect incipient trouble in advance of critical anomalies. Health monitoring techniques have evolved from flight engineer/pilot tasks through visual and tactile cues available on cockpit gages to automatically monitored data on on-board computer, transferred in real time or differed time to ground station for analysis._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 311) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Future trends are towards an increase in the sophistication of on-board and ground-based engine monitoring and maintenance systems including dedicated on-board diagnostic processors and algorithms, advanced diagnostics and prognostics instrumentation with fault accommodating logic . The ultimate vision is a combined monitoring system that applies prognostics within an engine health management system to allow aircraft operators to automatically track remaining life of engine component. In addition processing of signals such as vibrations and acoustic signature should be developed to identify and locate mechanical incipient failures ( disk or blade crack initiation, bearing wear,..)"
+1C15,Electrical Power Generation & Distribution,1C0,"Electrical Power Generation & Distribution  - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the generation, distribution, integration and control of electrical power on board the aircraft, both AC and DC. The development of aircraft power technologies that are simple in design and have a wider range of application will result in lower acquisition and maintenance costs, and will facilitate the development of the More Electric Aircraft._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 417)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. System components. generators, alternators, converters, inverters, batteries, circuit protection (circuit breakers, current limiters, automatic bus transfer), wiring, connectors, control systems, measuring instruments, warning indicators_x000D_
+_x000D_
+2. System characteristics. power quality, isolation, reliability, interface standardisation_x000D_
+_x000D_
+3. Issues. electrical load analysis, power quality testing, installation assessment, distribution and load management_x000D_
+_x000D_
+4. Integration and validation of technologies"
+1C0,Propulsion & Power,,"Propulsion & Power - It comprises all the technologies related with aircraft propulsion: performance calculation, aerodynamics of turbomachinery, combustion processes, air-breathing propulsion technologies, heat transfer technologies, engine controls and particular aspects like: nozzles, vectored thrust, reheat and APUs. Fuel and lubricants and emissions/pollution, test facilities and techniques, engine health monitoring and computational methods for propulsion are also included. - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-C-1. Performance_x000D_
+_x000D_
+1-C-2. Turbomachinery / Propulsion Aerodynamics _x000D_
+_x000D_
+1-C-3. Combustion_x000D_
+_x000D_
+1-C-4. Air-breathing propulsion_x000D_
+_x000D_
+1-C-5. Heat Transfer_x000D_
+_x000D_
+1-C-6. Nozzles, Vectored Thrust, Reheat_x000D_
+_x000D_
+1-C-7. Engine Controls _x000D_
+_x000D_
+1-C-8. Auxiliary Power Unit _x000D_
+_x000D_
+1-C-9. Fuels and Lubricants _x000D_
+_x000D_
+1-C-10. Test Bench Calibration _x000D_
+_x000D_
+1-C-11. Engine Health Monitoring _x000D_
+_x000D_
+1-C-12. Experimental Facilities and Measurement Techniques 1-C-13. Computational Methods _x000D_
+_x000D_
+1-C-14. Emissions pollution _x000D_
+_x000D_
+1-C-15. Electrical Power Generation & Distribution "
+1C6,"Nozzles, Vectored Thrust, Reheat",1C0,"Nozzles, Vectored Thrust, Reheat - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The performances of the nozzles are strongly linked to the afterbody aerodynamics for supersonic aircraft. On fighters, modifications of the geometry of the nozzle are needed for the adaptation at very different flight conditions. On the botttail boundary layer separation can occur due to jet expansion or flight in incidence or sideslip. In order to reduce the jet noise, some shapes of nozzle can be used on transonic aircraft and solutions with ejector silencer are studied for supersonic aircraft. The reduction of IR signature is an important operational constraint and several techniques of mixing to reduce the jet temperature can be used. Vectored thrust is a means of controlling the aircraft stability or improving the manoeuvrability of the vehicle. Several systems are used (deflectors in the jet, rotation of the nozzle, wall injection inside the nozzle,...)_x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 306) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Computational Fluid Dynamics_x000D_
+_x000D_
+2. Wind Tunnel Testing_x000D_
+_x000D_
+3. Noise Reduction_x000D_
+_x000D_
+4. Silencer_x000D_
+_x000D_
+5. Afterbody_x000D_
+_x000D_
+6. Flow separation_x000D_
+_x000D_
+7. Infrared Signature"
+1C5,Heat Transfer,1C0,"Heat Transfer -  _x000D_
+_x000D_
+ DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Heat transfers concern mainly the combustor, the turbine and the heat exchangers, if present. In the combustor heat transfers are of two types : convective and radiative. The effect can be damages of the combustor wall through hot points or thermal fatigue due to accumulation of ignition and extinction in the successive flight cycles. The convective heat transfers are due to the direct contact of reacting hot flows with walls. The solutions go through the mastering of fluid dynamics and aerothermochemistry and more precisely of the techniques of wall cooling by film or impingement. Numerical simulation and analytic experimentation play a considerable role in this problem. The radiative heat transfers are due mainly to the emission of hot gases and soots ; the wall to wall radiative transfers are less important. In the turbines, heat transfers are of the convective type. They concern mainly three problems: exchanges between main flow and the external wall of the turbine blades with the associated cooling techniques, cooling of the blades by internal air circuits and the transfer of energy in internal rotating cavities in the core of the engine. In this last case, the flow rates being very low, the movements of the fluid in the cavity are completely driven by the friction on the walls, necessitating a great mastering of turbulence phenomena. In the heat exchangers, heat transfers are the reason to use this component. New conceptions of these devices must be developed to meet the requirements of aeronautical constraints as compacity, weights, geometrical adaptation. In the three cases, investigations must be coupled to the study of conductive heat transfers inside the materials._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 305) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. turbulence_x000D_
+_x000D_
+2. rotating flows_x000D_
+_x000D_
+3. radiation_x000D_
+_x000D_
+4. diagnostics"
+1C12,Experimental Facilities and Measurement Techniques,1C0,"Experimental Facilities and Measurement Techniques - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Characterisation of reactive flows requires the knowledge of several parameters: concentration and temperature of various species, as well as velocity and turbulence. These quantities are currently obtained by non intrusive optical techniques based on either molecular or particle scattering._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 312) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Measurements of temperatures and concentrations: CARS (Coherent Anti-Stokes Raman Scattering), LIF (Laser Induced Fluorescence), LII (Laser Induced Incandescence), DFWM (Degenerated Four Wave Mixing), REMPI (Resonantly Enhanced Multi-Photon Ionisation), DLAS (Diode Laser Absorption Spectroscopy), EBF (Electron Beam Fluorescence)._x000D_
+_x000D_
+2. Velocity measurements: LDV (Laser Doppler Velocimetry), PIV (Particle Image Velocimetry), DGV (Doppler Global Velocimetry), PDA (Phase Doppler Anemometry: velocity and particle size), L2F (Laser Two-Focus Velocimetry)."
+1C1,Performance,1C0,"Performance - DEFINITION_x000D_
+_x000D_
+Turbomachines are systems that consist in an assembly of several components. The components that have an influence on performances are mainly the compressor, the combustor and the turbine and eventually the heat exchanger, if present. The turbomachines performances study concerns either the performance of an elementary component or the overall performance of the machine that depends directly upon the performances of each component that are the data to be introduced in cycles studies to evaluate this overall performance. The efficiency of the system has a direct effect on the production of green house effect carbon dioxide. Experimental measurements remain a major way to evaluate the real performances of a turbojet, at ground or high altitude conditions. Nevertheless numerical simulation, steady and unsteady, becomes more and more reliable and induces a noticeable reduction of development times even if an ultimate final experimental verification is still necessary. Performances of every elementary components, compressors etc ..., tend to reach their limits and the quest of a still better performance, particularly to reduce the greenhouse effect by consumption reduction, needs to consider new and more complicated cycles, involving for instance heat exchangers. - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. compressor : pressure ratio, efficiency, resistance to distortion, stall margin, active control, number of stages_x000D_
+_x000D_
+2. turbine : efficiency, cooling, number of stages_x000D_
+_x000D_
+3. combustion : efficiency, stability, ignition, extinction, instabilities, active control, gaseous emissions, soots_x000D_
+_x000D_
+4. the complete engine : thrust, specific thrust, weight, dimensions, specific consumption, emission indices, noise_x000D_
+_x000D_
+5. lifetime_x000D_
+_x000D_
+6. maintenance constraints_x000D_
+_x000D_
+7. cost"
+1C4,Air-breathing propulsion,1C0,"Air-breathing propulsion - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+In air intakes the kinetic energy is partially transformed into pressure. The distortion of the flow in front of the engine is due to the non uniformity of the flow in front of the lips, the shape of the diffusor, the development of boundary layer on the walls and sometimes the shock-boundary layer interaction. This distortion has to be reduced to keep a good efficiency of the turbojet. The mass flow needed by the engine has to be provided by the air intake for the overall flight envelope. Thus additional inlets or variable geometry are used for supersonic aircraft and fighter. For supersonic vehicles (aircraft and missile) external flow compression induces a penalty for the cowl drag, so mixed compression air intakes are interesting for high cruise Mach numbers. However in this case, some small perturbations can cause the buzz phenomenon by dynamic effect of the shock displacement near the throat. Some devices have to be developed to prevent this risk (internal diverter, porous wall,...). For turboprops, air intakes are located behind the propeller or under the rotor and these strong interactions have to be taken in account in air intake design. At the take-off the presence of the propeller reduce locally the leading edge slat efficiency. The rotative movement of the airflow issued from the propeller is at the origin of a rolling moment to be controlled. The design of air intake and its installation on the vehicle have to respect some constraints like noise reduction and minimisation of radar signature. Others problems are the icing of the lips and the ingestion of sand, dust or birds. - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Computational Fluid Dynamics_x000D_
+_x000D_
+2. Intakes_x000D_
+_x000D_
+3. Propeller, propfans, turbojets, turbofan_x000D_
+_x000D_
+4. Wind Tunnel Testing_x000D_
+_x000D_
+5. Noise reduction_x000D_
+_x000D_
+6. Radar signature_x000D_
+_x000D_
+7. Buzz_x000D_
+_x000D_
+8. Icing_x000D_
+_x000D_
+9. Ingestion"
+1C14,Emissions pollution,1C0,"Emissions pollution - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+These topics are of the most importance in the actual context. The emissions of the turbojets are produced by the combustion. They are of two categories : minor and major species. Minor species : NOx, CO, HC, particulates, are characterised by the fact that in certain conditions they can be quasi avoided. The art of the engineer consists in finding the best compromise to minimise these emissions, some, like NOx and CO, necessitating contradictory conditions. Their study requires a great knowledge in advanced chemical kinetics, particularly for soots : precursors, nucleation, growth and oxidation. The characteristic times are of the order of the millisecond. Major species : CO2, H2O, have a production strictly proportional to the fuel consumption and cannot be avoided. They concern mainly the greenhouse effect. The only way to reduce them is to reduce the fuel consumption and the solution relies on overall engine, and aircraft, efficiencies. The effect of these emissions on the environment involve very complex phenomena belonging to the physical chemistry of the atmosphere. Characteristic times are much longer, from one second to several days. The evolution of the effluents are not deterministic and depend of the local and instantaneous meteorological conditions, and particularly the eventual presence of the solar radiation. These phenomena include heterogeneous mechanisms due to the presence of condensed phases that constitute aerosols presenting important evolution in composition during their lifetime. The two characteristic situations are the local impact, in the vicinity of airports, and the global impact during the flight, the consequences being different for troposphere and stratosphere. In all these problems, sophisticated diagnostics have the greatest importance._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 314) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. chemical kinetics_x000D_
+_x000D_
+2. turbulent combustion_x000D_
+_x000D_
+3. atmosphere physico-chemistry_x000D_
+_x000D_
+4. diagnostics_x000D_
+_x000D_
+5. species transport and dispersion"
+1D25,Fire protection systems,1D0,"Fire protection systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+A fire protection (FP) system in an aircraft includes passive and active FP means. Passive FP is achieved by using fireproof, or fire-resistant, materials. Active FP systems comprise smoke, fire and overheat detectors with indicators, fire suppression devices and a management control sub-system._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 425)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Passive protection - fireblocking layer on materials (e.g. cabin seats), fire-resistant fittings, floor coverings and non-structural applications_x000D_
+_x000D_
+2. Detection systems - smoke (back-scattering, optical attenuation), fire (gas sensing, near IR, IR), overheat, hot air leakage_x000D_
+_x000D_
+3. Fire suppression - halon, watermist/nitrogen flooding,   environmental impact, piping, valves, on-board inert gas generation systems, hand-held extinguishing systems_x000D_
+_x000D_
+4. Control systems - maintenance panels, cockpit display panels, visualisation of system status, audible alerts, design (zonal configuration, redundancy, reliability, systems research, analysis of operational incidents), BITE"
+1D6,Sensors integration,1D0,"Sensors integration - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Fusing of data from sensors to present a single, unambiguous picture to the system users._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 406)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Integrated modular avionics_x000D_
+_x000D_
+2. System interfaces and architectures_x000D_
+_x000D_
+3. Algorithm development, testing and validation_x000D_
+_x000D_
+4. Application to navigation, aircraft status and flight data systems"
+1D22,Water and waste systems,1D0,"Water and waste systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Water is required for crew and passengers, for both drinking and cleaning purposes. Waster from passengers and crew needs to be stored and disposed of in an environmentally responsible manner._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 422)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Fresh water systems - storage, tank capacity, distribution system and flow rate, pressure system, disinfection (chlorine, anodic oxidation), ground handling interface - filling and emptying_x000D_
+_x000D_
+2. Grey water - disposal system (heating, in-flight spraying)_x000D_
+_x000D_
+3. Toilets - reliability, maintainability, technologies (recirculation, vacuum), storage and disposal of waste_x000D_
+_x000D_
+4. Plumbing - pipework, valves, fittings, filters_x000D_
+_x000D_
+5. Cabin waste - solid/semi-solid/liquid, storage, compaction, avoidance of smells_x000D_
+_x000D_
+6. Ground handling interface"
+1D24,Landing gear and braking systems,1D0,"Landing gear and braking systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the landing gear, wheels, tyres, braking and steering systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 424)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Landing gear - configuration and design, shock absorption (active and passive damping), load control systems, control theory aspects, power demand, corrosion protection_x000D_
+_x000D_
+2. Wheels - construction, design (main and nose wheels)_x000D_
+_x000D_
+3. Tyres - construction, design, temperature and pressure sensors and monitoring, operation under loads, wear prediction_x000D_
+_x000D_
+4. Braking system - materials (carbon, steel), anti-skid systems (integrated brake monitoring, anti-skid valves, brake management systems), automatic braking systems, temperature sensors and monitoring systems, accumulators, pressure transducers_x000D_
+_x000D_
+5. Steering system - nosewheel steering"
+1D5,Electronics & Microelectronics for on-board systems,1D0,"Electronics & Microelectronics for on-board systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology addressing the development, integration, validation and use of new electronic and micro-electronic systems on aircraft, including the facilitation of the More Electric Aircraft  concept._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 405)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. New materials_x000D_
+_x000D_
+2. Power, weight and cooling requirement reductions_x000D_
+_x000D_
+3. Reliability increase_x000D_
+_x000D_
+4. Component and system interfaces and architectures_x000D_
+_x000D_
+5. MEMS"
+1D7,Flight Data/Flight Recording,1D0,"Flight Data/Flight Recording - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Commercial aircraft are required to be fitted with devices that record flight information that can be used to help reconstruct the events leading up to an aircraft incident or accident._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 407)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Cockpit voice recorder (CVR). recording technology_x000D_
+_x000D_
+2. CVR sensors (microphones)_x000D_
+_x000D_
+3. CVR. reconstruction tools and algorithms_x000D_
+_x000D_
+4. Flight data recorder (FDR). recording technology_x000D_
+_x000D_
+5. FDR. sensors_x000D_
+_x000D_
+6. FDR. reconstruction tools and algorithms_x000D_
+_x000D_
+7. Passenger cabin recording equipment"
+1D21,Environmental control System,1D0,"Environmental control System - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Aircraft environmental control systems (ECS) provide the means to ensure a controlled environment within the aircraft interior, in terms of air supply, air flow, temperature, pressure and humidity. In addition to normal cabin-air requirements, certain areas of aircraft have special ECS-related operational and safety requirements, such as adequate cooling of equipment or removal of smoke or odours._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 421)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Provision of fresh air - bleed air, ozone converter, air conditioning/cooling packs (heat exchangers, turbines, compressors, air mix chambers)_x000D_
+_x000D_
+2. Air filters - activated charcoal, HEPA, filter status monitoring_x000D_
+_x000D_
+3. Exhaust of cabin air - pressure control, outflow valves_x000D_
+_x000D_
+4. Recirculation system - CO, CO2 monitoring and removal_x000D_
+_x000D_
+5. Temperature, humidity control_x000D_
+_x000D_
+6. Cabin ventilation and ducting system - flow patterns analysis, tools and modelling, zonal distribution, avoidance of draughts and stagnant areas_x000D_
+_x000D_
+7. Control systems - status indicators, parameter level and system warning indicators, manual regulators for emergency use_x000D_
+_x000D_
+8. Air quality monitoring and analysis - development of comfort index_x000D_
+_x000D_
+9. Ground operations of ECS - APU, external air conditioning units_x000D_
+_x000D_
+10. Personal climate control facilitation (temperature, airflow, humidity)s - loading, handling, restraining, monitoring, integration"
+1D23,Fuel systems,1D0,"Fuel systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the aircraft fuel storage and distribution systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 423)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Storage - tank location, design, construction_x000D_
+_x000D_
+2. Distribution systems - pipes, valves, isolation systems, pumps_x000D_
+_x000D_
+3. Management system - level indicators, actuators, control system_x000D_
+_x000D_
+4. Refuelling and defuelling systems_x000D_
+_x000D_
+5. Safety issues - fire protection measures, electrical bonding straps and jumpers"
+1D15,Lighting systems,1D0,"Lighting systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology into internal and external aircraft lighting systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 415)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Lighting technologies. LED, incandescent, fluorescent, high-density discharge, electro-luminescent_x000D_
+_x000D_
+2. Operational considerations. power requirements, reliability, flexibility in installation and operation, reduction in maintenance requirements_x000D_
+_x000D_
+3. Safety considerations. robustness, redundancy_x000D_
+_x000D_
+4. Lighting types. ambient cabin, task cabin (reading etc), information and guidance, safety, flight-deck, external anti-collision"
+1D16,Aircraft Security,1D0,"Aircraft Security - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Aircraft security measures are the physical protection measures required in order to protect the aircraft and the passengers and crew when they are on-board._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 416 and PAE insertion about Cybersecurity)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Systems and procedures for identification and access of personnel to the flight deck_x000D_
+_x000D_
+2. On-board explosives detection systems_x000D_
+_x000D_
+3. Alarm systems (e.g. panic alarms for cabin staff, seatback phones for passengers)_x000D_
+_x000D_
+4. Cockpit security monitoring systems (voice recorders, video surveillance etc)_x000D_
+_x000D_
+5. Passenger cabin security monitoring systems (voice recorders, video surveillance etc)_x000D_
+_x000D_
+6. Security systems deployed by armed sky marshals_x000D_
+_x000D_
+7. Tamper-proof and multiply-redundant transponder systems_x000D_
+_x000D_
+8. Modified collision and terrain-avoidance systems (to prevent aircraft from being crashed deliberately)_x000D_
+_x000D_
+9. Modified automatic landing systems (to enable forced landing of aircraft by ground authorities after it has_x000D_
+_x000D_
+been hijacked)_x000D_
+_x000D_
+10. Cybersecurity procedures and systems._x000D_
+_x000D_
+Comment: see also Area 'Structures, Materials & Processes'"
+1D17,Mission Sensors & Equipments,1D0,"Mission Sensors & Equipments - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It covers sensors and equipments embarked into the platforms providing capabilities and functions needed for the platform missions and not linked to flight support or any other generic platform function. I may include intelligence, surveillance, target acquisition and reconnaissance, ISTAR and they can be passive or active detection sensors covering the whole spectrum (i.e.: radars, electronic defence systems, electro-optical systems, etc…). It also includes communication and identification systems needed for specific mission execution._x000D_
+_x000D_
+It can also includes magnetic sensors and any other detection mean needed for mission execution._x000D_
+_x000D_
+Applications can be military or civil/scientific ones._x000D_
+_x000D_
+ _x000D_
+_x000D_
+Examples:_x000D_
+_x000D_
+_x000D_
+ Meteorological radar or radar altimeter are not mission sensors, but a SAR or a multifunctional radar are indeed._x000D_
+ A FLIR is clearly a mission sensor._x000D_
+ Pilot radio for flight control is not included here, but specific data links (like link16 or MIDS) are mission equipments._x000D_
+ IFF is also included here._x000D_
+_x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own elaboration)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Intelligence_x000D_
+ Surveillance_x000D_
+ Target acquisition_x000D_
+ Reconnaissance_x000D_
+ Communications_x000D_
+ Identification_x000D_
+ Others_x000D_
+_x000D_
+_x000D_
+ "
+1D11,Optics - Optronics - Lasers - Image processing and data fusion,1D0,"Optics - Optronics - Lasers - Image processing and data fusion - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the use of optical, electro-optical and optronics systems; and the collection and fusing of data from such systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 411)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. System interfaces and architectures_x000D_
+_x000D_
+2. Reductions in power, weight and cooling requirements_x000D_
+_x000D_
+3. Integration with avionics_x000D_
+_x000D_
+4. Radar data processing (RDP)_x000D_
+_x000D_
+5. Sources of surveillance data_x000D_
+_x000D_
+6. Optics sensors. enhanced vision sensors, light intensifiers, solid state lasers, MOEMS (Micro electrooptical mechanical systems)_x000D_
+_x000D_
+7. Nano technologies_x000D_
+_x000D_
+8. Signal processing_x000D_
+_x000D_
+9. High bandwidth data transmission_x000D_
+_x000D_
+10. Data fusion. architectures, algorithms, validation"
+1D18,Pneumatic systems,1D0,"Pneumatic systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Pneumatic systems provide compressed air to pressurise the aircraft water supply system, for wing ice protection, and as emergency back-up for hydraulic sub-systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 418)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Components. LP air cylinders, pressure gauges and warning lights, pipework, valves and fittings, filters, seals_x000D_
+_x000D_
+2. Wing ice protection. ice sensor integration for Protection on Demand, hybrid wing heating_x000D_
+_x000D_
+3. Provision of emergency oxygen systems for passengers and crew_x000D_
+_x000D_
+4. Emergency inflation systems (rafts, escape slides etc)"
+1D19,Hydraulic power generation & distribution,1D0,"Hydraulic power generation & distribution - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the use of hydraulic systems (power generation, control and distribution)._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 419)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Components. reservoirs, pumps, valves (pressure regulators and directional control), accumulators, filters, supply and return lines, seals, actuators, fittings and control systems_x000D_
+_x000D_
+2. Design. tools to support modelling for dynamic performance analysis_x000D_
+_x000D_
+3. Interfaces with other aircraft systems"
+1D3,Navigation / Flight Management / Autoland,1D0,"Navigation / Flight Management / Autoland - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Navigation and flight management systems are required to optimise the efficiency of operating aircraft in the ever more densely populated airspace. The objective is for full and permanent automatic approach and landing in all weathers. _x000D_
+_x000D_
+Links with SSS - 'Surveillance Sensor Systems'._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 403)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. RF-based aircraft navigation and guidance systems (e.g. VOR, ILS, MLS, LORAN, TACAN, ADF, DME, NDB)_x000D_
+_x000D_
+2. Satellite-based aircraft navigation and guidance systems (e.g. GPS, differential GPS, GLONASS)_x000D_
+_x000D_
+3. Inertial navigation systems_x000D_
+_x000D_
+4. Digital altitude control systems (radar altimeters etc)_x000D_
+_x000D_
+5. System interfaces, data flows and analysis. 3D FMS 4D FMS, flight database_x000D_
+_x000D_
+6. Inspection, adjustment, performance testing, malfunction analysis and corrective_x000D_
+_x000D_
+7. Automatic landing systems. autoland, low visibility approach and landing, precision approach, tactical decision tools_x000D_
+_x000D_
+8. Enhanced vision systems, pattern recognition and data fusion_x000D_
+_x000D_
+9. Synthetic 3D vision with terrain and obstacle information and visualisation, automatic warnings to crew if flight path intersects with terrain"
+1D13,Aircraft health and usage monitoring system,1D0,"Aircraft health and usage monitoring system - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with a network of sensors tasked with monitoring the health, usage, fatigue and performance of various aircraft systems and sub-systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 413)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Application of prognostic health management to improve condition-based maintenance_x000D_
+_x000D_
+2. HUMS sensors. characteristics, interfaces, management, scheduling and self-monitoring_x000D_
+_x000D_
+3. Data management. storage, archiving, retrieval, analysis_x000D_
+_x000D_
+4. Integration of diagnostic and prognostic systems"
+1D1,Avionics,1D0,"Avionics - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to avionics, cockpit and ATM-related aircraft systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 401) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Cockpit Automation: Cockpit, Cockpit systems, Avionics, GPWS, Cockpit displays, EFIS, Glass cockpit, CMU, ATSU, Communications display, enhanced vision systems, CPDLC display, ACARS interface._x000D_
+_x000D_
+Comments: on board avionics systems, pilot HMI, validation of sub systems. Includes GPWS, EFIS, enhanced vision systems, communications displays, radios and airborne radar displays._x000D_
+_x000D_
+2. Airborne Separation Assurance System: Airborne Situation Awareness System, Airborne Separation Assurance System, ASAS Human Machine Interface / procedures, CDTI. _x000D_
+_x000D_
+Comments: Airborne situation awareness systems, Airborne Separation Assurance Systems, automation of these systems, validation of subsystems. ASAS Human Machine Interface / procedures. Systems for autonomous aircraft operations and to support delegation of separation responsibility._x000D_
+_x000D_
+3. ACAS Automation and Use: TCAS, ACAS, Airborne Collision Avoidance System._x000D_
+_x000D_
+Comments: Airborne collision avoidance systems, automation of these systems, validation of subsystems._x000D_
+_x000D_
+Includes studies of the operation and use of TCAS, ACAS and their impact on the ATM system._x000D_
+_x000D_
+4. Flight Management Systems: Flight Management Systems, FMS, 3DFMS, 4DFMS, Flight Database._x000D_
+_x000D_
+Comments: flight management databases, safety and validation of FMS in relation to the ATM environment."
+1D4,Warning System,1D0,"Warning System - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+To reduce the risk of aircraft colliding with each other, or by undertaking Controlled Flight Into Terrain (CFIT), aircraft are fitted with an array of collision warning systems. Note that human aspects of responses to warning system alerts are dealt with in the Human Factors research and technology area, and fire protection warning systems are dealt with later in this Area._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 404)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Sensors. ground collision avoidance (GPWS)_x000D_
+_x000D_
+2. Sensors. airborne collision avoidance systems (ACAS)_x000D_
+_x000D_
+3. Alerting systems (audio, warning lights, displays. map view, profile view, 3D perspective view)_x000D_
+_x000D_
+4. Integrated terrain awareness and warning systems_x000D_
+_x000D_
+5. Turbulence warning. windshear, wake vortex, clear air turbulence_x000D_
+_x000D_
+6. Ground and airborne detection of meteorological icing conditions_x000D_
+_x000D_
+7. Integration of airborne detection with atmospheric data received from outside the aircraft for real-time crew information and for transmission to other users_x000D_
+_x000D_
+8. False alarm reduction"
+1D0,"Aircraft Avionics, Systems & Equipments",,"Aircraft Avionics, Systems & Equipments - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the technologies related with aircraft electronic equipments (avionics including integration, cockpit, flight management, sensors, communications, etc…), optronics, health and usage monitoring, smart maintenance and aircraft security as well as the technologies for electrical and hydraulic  power generation and distribution, fuel systems and landing gear and braking systems. It also includes different service systems (passenger and freight, lighting, environmental control, water and waste and fire protection ones)._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 4 & PAE own definition) _x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-D-1. Avionics_x000D_
+_x000D_
+1-D-2. Cockpit Systems, Visualization & Display Systems _x000D_
+_x000D_
+1-D-3. Navigation / Flight Management / Autoland _x000D_
+_x000D_
+1-D-4. Warning Systems _x000D_
+_x000D_
+1-D-5. Electronics & Microelectronics for on-board systems _x000D_
+_x000D_
+1-D-6. Sensors integration _x000D_
+_x000D_
+1-D-7. Flight Data / Flight Recording _x000D_
+_x000D_
+1-D-8. Communications Systems _x000D_
+_x000D_
+1-D-9. Identification _x000D_
+_x000D_
+1-D-10. Avionics Integration _x000D_
+_x000D_
+1-D-11. Optics - Optronics - Lasers - Image processing and data fusion _x000D_
+_x000D_
+1-D-12. Electronic Library System _x000D_
+_x000D_
+1-D-13. Aircraft health and usage monitoring system _x000D_
+_x000D_
+1-D-14. Smart maintenance systems _x000D_
+_x000D_
+1-D-15. Lighting systems _x000D_
+_x000D_
+1-D-16. Aircraft Security _x000D_
+_x000D_
+1-D-17. Mission Sensors & Equipments_x000D_
+_x000D_
+1-D-18. Pneumatic systems _x000D_
+_x000D_
+1-D-19. Hydraulic power generation & distribution _x000D_
+_x000D_
+1-D-20. Passenger and freight systems _x000D_
+_x000D_
+1-D-21. Environmental control systems _x000D_
+_x000D_
+1-D-22. Water and waste systems _x000D_
+_x000D_
+1-D-23. Fuel systems _x000D_
+_x000D_
+1-D-24. Landing gear and braking systems _x000D_
+_x000D_
+1-D-25. Fire Protection Systems "
+1D12,Electronic Library System,1D0,"Electronic Library System - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the collection and presentation of technical and operational material relating to aircraft, in a digital form which can be accessed by flight crews and maintenance staff through computers, either networked or stand-alone._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 412)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Collection and digitisation of data_x000D_
+_x000D_
+2. Data management_x000D_
+_x000D_
+3. Data display (laptops, PDAs, tablet/slate PCs)_x000D_
+_x000D_
+4. System characteristics (e.g. physical robustness to harsh operating environment)_x000D_
+_x000D_
+5. Connectivity and ground infrastructure issues_x000D_
+_x000D_
+6. IT associated tools (e.g. virtual reality) for enhanced maintenance support"
+1D10,Avionics Integration,1D0,"Avionics Integration - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+With the increasing complexity of aircraft avionics, their integration into an effective system is required._x000D_
+_x000D_
+Evaluation of the interactions between each sub-system is required. This includes electronic flight instrument systems, flight  management, air data, attitude reference and power distribution systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 410)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Functional verification_x000D_
+_x000D_
+2. Integration testing_x000D_
+_x000D_
+3. Maintenance of integrated avionics system_x000D_
+_x000D_
+4. Operational characteristics of integrated avionics systems"
+1D9,Identification,1D0,"Identification - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+ATM systems require accurate and timely knowledge of the location and identification off all aircraft within their airspace. _x000D_
+_x000D_
+Close links to ATM area._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 409)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. IFF transponders (selective integration, Mode S, Mode S  subnetwork, Mode S SARPS, Mode 5)_x000D_
+_x000D_
+2. Non-co-operative identification (JEM etc)"
+1D8,Communications Systems,1D0,"Communications Systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Covers communications between aircraft and the ground, as well as communications on-board the aircraft._x000D_
+_x000D_
+Links with 1-G-4 - 'Communications and Systems Technology'._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 408)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Radio communication systems (HF, VHF, UHF, AM/FM), analogue and digital_x000D_
+_x000D_
+2. Integration of communications systems_x000D_
+_x000D_
+3. Communications systems architecture (including routers, WANs and gateways)_x000D_
+_x000D_
+4. Reductions in power requirements, weight reduction_x000D_
+_x000D_
+5. Communication systems components. waveguides, antennas_x000D_
+_x000D_
+6. Data transmission. datalinks (VHF datalink, air-air datalink, broadcast datalink), telemetry, ACARS_x000D_
+_x000D_
+7. On-board intercom systems_x000D_
+_x000D_
+8. Satellite communications. voice, datalinks, communications integration"
+1D14,Smart maintenance systems,1D0,"Smart maintenance systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Complex systems comprising electronic, electro-mechanical and hydraulic sub-systems must be engineered with ease of maintenance as a design goal. In a fielded system, effective preventive maintenance achieved through online system health monitoring, damage detection and smart diagnostics and repair strategies will_x000D_
+_x000D_
+yield significant saving in the total life cycle costs, by improving the systems' reliability, maintainability and availability._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 414)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Autonomous logistics. anticipatory maintenance and repair_x000D_
+_x000D_
+2. Provisions of information to maintenance staff_x000D_
+_x000D_
+3. Reductions in logistics and maintenance support requirements_x000D_
+_x000D_
+4. Automated logging of system and sub-system performance_x000D_
+_x000D_
+5. System interfaces and architectures_x000D_
+_x000D_
+6. Self-healing and self-repairing systems and materials_x000D_
+_x000D_
+7. Maintenance monitoring systems_x000D_
+_x000D_
+8. Failure tolerant systems_x000D_
+_x000D_
+9. Computer-based maintenance support and training, methods and materials"
+1D20,Passenger and freight systems,1D0,"Passenger and freight systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research and technology associated with the development of improvements to aircraft seating, safety restraints and interior systems, including the integration of on-board passenger services._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 420)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Passenger seats - configurations (side-facing, rear-facing, bed-seats), comfort (suppression of vibration etc), ergonomic design, safety crash worthiness, integration of value-added services_x000D_
+_x000D_
+2. In-flight cabin systems - electronic business/office systems, airline information, flight information/interactive maps, internet access, telephone access, audio/video and other multimedia services on demand, video surveillance monitoring and recording_x000D_
+_x000D_
+3. Restraints - airbags, seat belts, child restraints, analysis of operational effectiveness_x000D_
+_x000D_
+4. Safety systems - lightweight breathing systems, smoke hoods, evacuation systems (slides etc)_x000D_
+_x000D_
+5. Cargo systems - loading, handling, restraining, monitoring, integration"
+1D2,"Cockpit Systems, Visualisation & Display Systems",1D0,"Cockpit Systems, Visualisation & Display Systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Aircraft cockpits must evolve, to provide aircrew with access to accurate and timely information through highly capable display systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 402)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Cockpit indicators and gauges_x000D_
+_x000D_
+2. Cockpit switch panels_x000D_
+_x000D_
+3. Cockpit display panels. CRT, flat panel, touch screen, head-up displays_x000D_
+_x000D_
+4. Display issues. readability in different lighting situations, resolution, contrast, viewing angle_x000D_
+_x000D_
+5. Reduction in weight, power and cooling requirements_x000D_
+_x000D_
+6. Increased reliability_x000D_
+_x000D_
+7. Integration with flight management and navigation systems (EFIS, ACARS, ATSU)_x000D_
+_x000D_
+8. Glass cockpit"
+1E1,Open-loop Aircraft Stability Analysis,1E0,"Open-loop Aircraft Stability Analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The research in open-loop stability uses analytical and experimental techniques to study the aircraft's natural motion around the centre of gravity, resulting from the external forces and moments acting on the aircraft, without interference from a pilot or autopilot. In the analysis it is determined if in a certain flight condition all forces and moments are in equilibrium. Subsequently, an aircraft is considered to be open-loop stable if, after a small disturbance from an equilibrium flight condition, the aircraft has a natural tendency to return to the original condition, without interference from a pilot or autopilot._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 501) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. System identification - from empirical / analytical model parameter estimation, wind tunnel tests and flight tests._x000D_
+_x000D_
+2. Mathematical modelling - equations of motion, aerodynamics, mass properties and geometry, taking into account modelling errors and uncertainties)._x000D_
+_x000D_
+3. Analytical analysis of stability and stability margins - including a sensitivity analysis to determine the most influential physical parameters._x000D_
+_x000D_
+4. Flight Tests - experimental analysis of stability and natural motion of the aircraft, including model validation, definition of suitable test manoeuvres, instrumentation."
+1E2,Flight control system,1E0,"Flight control system - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The flight control system of an aircraft enables the pilot to control the aircraft along a desired trajectory and overcome the aerodynamic forces acting on the control surfaces. It improves the stability and flying qualities of an aircraft to a desired level. Current civil transport aircraft and military fighter aircraft are equipped with electronic fly-by-wire flight control systems providing easy, safe and economic operation of the vehicle under all operating conditions. Research on flight control systems uses analytical and experimental techniques to_x000D_
+_x000D_
+design a system to control the aircraft and subsequently analyse the stability of the closed-loop system, i.e. the aircraft with the pilot (or autopilot) in the loop._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 502)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. System Identification (see 501)_x000D_
+_x000D_
+2. Mathematical modelling (see 501, adding sensors and FSC systems models)_x000D_
+_x000D_
+3. Definition of controller requirements and desired handling criteria_x000D_
+_x000D_
+4. Controller design - control theory (architecture, algorithms, robustness)_x000D_
+_x000D_
+5. Thrust vectoring and integrated flight- and propulsion control_x000D_
+_x000D_
+6. Analytical controller analysis (stability and robustness, using linear models)_x000D_
+_x000D_
+7. Controller analysis using desktop simulation_x000D_
+_x000D_
+8. Controller analysis using a flight simulator (pilot-in-the-loop, handling qualities)_x000D_
+_x000D_
+9. Flight test analysis (see 501, including handling qualities)_x000D_
+_x000D_
+10. Development of a more efficient, integrated design and analysis process for robust controllers"
+1E3,Aircraft Performance Analysis,1E0,"Aircraft Performance Analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+In aircraft performance analysis, analytical and experimental techniques are used to determine extreme quantities of the translational motion of the centre of gravity of the aircraft, which are relevant to its operational and economic use. Typical quantities that are determined in a performance analysis are:_x000D_
+_x000D_
+- operational flight envelope (min/max of airspeed, altitude and load factor)._x000D_
+_x000D_
+- operational range and endurance_x000D_
+_x000D_
+- Performance in climb/descent_x000D_
+_x000D_
+- Cruise performance (optimum fuel consumption versus cruise speed and altitude)_x000D_
+_x000D_
+- performance in turns_x000D_
+_x000D_
+_x000D_
+ runway performance (take-off and landing distance)._x000D_
+_x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 503)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Mathematical modelling (3 DOF point mass model, equations of motion, environment, aerodynamics, engine and systems)_x000D_
+_x000D_
+2. Analytical performance calculations_x000D_
+_x000D_
+3. Performance Analysis of complex and/or dangerous manoeuvres via non-linear desktop simulation_x000D_
+_x000D_
+4. Flight Tests - experimental performance (definition of suitable test manoeuvres, instrumentation and validation of model and analytical analysis results)"
+1E6,Environmental Hazard Analysis,1E0,"Environmental Hazard Analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Environmental hazards, which mostly occur during the critical take-off and landing phases, can lead to potentially dangerous situations. Analytical and experimental techniques (simulation and flight tests) are used to identify the effects of these hazards. For analysis and prevention of accidents and incidents, it is investigated if the aircraft remains controllable (stability) and/or has sufficient performance for a go-around or evasive manoeuvre. For each hazard, the stability, control and performance sub domain activities are undertaken as described in 501 until 504, using sufficiently accurate models of the hazards their interference with the aircraft’s dynamics. _x000D_
+_x000D_
+Links with ‘1-G-11 Meteorological‘._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 506)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Take-off and landing in severe crosswind._x000D_
+_x000D_
+2. Windshear and microbursts (usually in combination with turbulence)._x000D_
+_x000D_
+3. Turbulence/ gusts._x000D_
+_x000D_
+4. Terrain and airport conditions (terrain profile effects on radar altimeter, wind interference from buildings)._x000D_
+_x000D_
+5. Wake vortex effects from other aircraft._x000D_
+_x000D_
+6. Icing conditions / heavy precipitation."
+1E0,Flight Mechanics,,"Flight Mechanics - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the technologies related with aircraft motion starting with open loop stability analysis (without pilot or autopilot interference) and including then the piloting (flight mechanics). Performance analysis and its optimization allow to define the best flight envelopes and failure, damage and hazard analyses allows to prevent accidents and incidents and react better when they appear,_x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 5 & PAE own definition) _x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-E-1. Open-loop Aircraft Stability Analysis_x000D_
+_x000D_
+1-E-2. Flight control system_x000D_
+_x000D_
+1-E-3. Aircraft Performance Analysis  _x000D_
+_x000D_
+1-E-4. Optimisation of Aircraft Performance _x000D_
+_x000D_
+1-E-5. System Failure and Damage Analysis _x000D_
+_x000D_
+1-E-6. Environmental Hazard Analysis _x000D_
+_x000D_
+ _x000D_
+_x000D_
+ "
+1E5,System Failure and Damage Analysis,1E0,"System Failure and Damage Analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The occurrence of failures in the aircraft’s systems can lead to a degradation of stability and/ or the performance of the aircraft. Although failure cases are taken into account in the design process of the aircraft, it is useful to perform separate and detailed studies of systems failures for the analysis and prevention of aircraft accidents and incidents. Bird strike or collision with other objects is a frequently occurring example._x000D_
+_x000D_
+Sufficiently accurate models of system failures and their effect on aerodynamics and system dynamics have to be generated._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 505)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Analysis of engine failure_x000D_
+_x000D_
+2. Design of fault-tolerant/ adaptive control systems (redundancy, fault detection and reconfiguration)_x000D_
+_x000D_
+3. Analysis of FCS hardware failure (sensors, hydraulic systems, control surfaces)_x000D_
+_x000D_
+4. Damage to the aircraft structure, resulting in altered aerodynamic properties"
+1E4,Optimisation of Aircraft Performance,1E0,"Optimisation of Aircraft Performance - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+In performance optimisation research, mathematical and analytical routines are used to calculate optimal trajectories and optimal flight conditions. Usually, in the calculation simplified models of the aircraft_x000D_
+_x000D_
+(aerodynamics, point mass) and its environment are used. Typical examples are “minimum-time-to-climb” or “minimum-fuel-manoeuvre” problems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 504)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Mathematical modelling (see 503)._x000D_
+_x000D_
+2. Selection of optimisation method and strategy._x000D_
+_x000D_
+3. Mathematical Definition of performance objectives._x000D_
+_x000D_
+4. Implementation and application of efficient optimisation routines._x000D_
+_x000D_
+5. Verification of optimisation results in simulation and flight tests."
+1F11,System reliability,1F0,"System reliability - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Reliability: ‘A system performs as it is intended.’ System reliability is a measure of the degree to which a system performs as it was designed to do, as opposed to doing something else (like producing a wrong answer or providing no answer). Definitions of reliability will therefore vary according to the definition of what_x000D_
+_x000D_
+the system is supposed to do. In general, if a system is in an unreliable state then it is ‘unavailable’ for its intended work tasks._x000D_
+_x000D_
+Scale: Mean time for a defined system to experience defined failure type under defined conditions._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 611)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Means of compliance: Fault tolerance_x000D_
+_x000D_
+2. Reliability: Analysis, Requirements_x000D_
+_x000D_
+3. Deterministic: Functionality, Resources bound, Time bound_x000D_
+_x000D_
+4. Maturity_x000D_
+_x000D_
+5. Recoverability"
+1F31,Methodology,1F0,"Methodology - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Provision of verification and validation methodologies that contribute to system flexibility in a cost-effective way. This leads to reductions in the validation element of RDT&E cycle._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 631)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Validation methods, methodologies, procedures, metrics, tools. Includes studies of validation issues for_x000D_
+_x000D_
+new technologies and systems._x000D_
+_x000D_
+2. Hierarchical methodologies_x000D_
+_x000D_
+3. Studies of certification issues for new technologies and systems_x000D_
+_x000D_
+4. system validation through modelling and simulation_x000D_
+_x000D_
+5. integration and validation of technologies_x000D_
+_x000D_
+6. Concept validation_x000D_
+_x000D_
+7. Collection, analysis and validation of test results_x000D_
+_x000D_
+8. Meta-models_x000D_
+_x000D_
+9. Coverage-based, fault-based, error-based testing and validation_x000D_
+_x000D_
+10. Requirement specification_x000D_
+_x000D_
+11. Test plans - acceptance, system and sub-system integration, module-level"
+1F13,Maintenance modelling,1F0,"Maintenance modelling - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The cost of maintaining aircraft and other capital assets is significant. Options for conducting maintenance include retaining responsibility within the organisation, or contracting it out to a third-party provider. Innovative options for maintaining assets may be possible. Modelling and analysis of the maintenance system can bring insights that will optimise effectiveness while minimising costs._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 613)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Asset management modelling methodology development_x000D_
+_x000D_
+2. Aircraft maintenance modelling (exploring impact of changes in maintenance regime on aircraft availability, utilisation, engineering costs, and staff requirements)_x000D_
+_x000D_
+3. Airport systems maintenance modelling (exploring impact of changes in maintenance regime on system availability, utilisation, engineering costs, and staff requirements)_x000D_
+_x000D_
+4. Decision-support tool development"
+1F12,Security / Risk analysis,1F0,"Security / Risk analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+In order to be able to respond appropriately to a wide range of different incidents, detailed security-related risk analyses need to be undertaken. These will need to include all systems and personnel involved in the security system as a whole. The objective will be to achieve a set of multi-layer, fault-tolerant, aviation security measures, which can be implemented within the essential parameters of operating aircraft and airports. Complexities include the different responsibilities of airports, airlines and government agencies._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 612)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Vulnerability assessment methodologies_x000D_
+_x000D_
+2. Security metrics (e.g. US Total Architecture for Aviation Security) to score various security systems_x000D_
+_x000D_
+3. Security audits (of airlines, airports)_x000D_
+_x000D_
+4. Threat assessments"
+1F20,Autonomous operation,1F0,"Autonomous operation - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+A system (operation) that is capable of performing a task in full autonomy showing autonomous behaviour._x000D_
+_x000D_
+This means that the system should be able to act without the direct intervention of humans (or other agents) and should have control over its own actions and internal state._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 620) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Characteristics of an autonomous system:_x000D_
+_x000D_
+1.1. Autonomous behaviour: The system should be able to act without the direct intervention of humans (or other agents) and should have control over its own actions and internal state._x000D_
+_x000D_
+1.2. Reactive behaviour: The system should perceive their environment and respond in a timely fashion to changes that occur in it._x000D_
+_x000D_
+1.3. Pro-active behaviour / Goal oriented behaviour: The system should not simply act in response to their environment, they should be able to exhibit opportunistic, goal-directed behaviour and take the initiative where appropriate._x000D_
+_x000D_
+1.4. Social behaviour: The system should be able to interact, when they deem appropriate_x000D_
+_x000D_
+Further characteristics:_x000D_
+_x000D_
+2. Mission planning_x000D_
+_x000D_
+3. Sensor data processing: processing step before data fusion._x000D_
+_x000D_
+4. Autonomous decision making_x000D_
+_x000D_
+5. Expert systems_x000D_
+_x000D_
+6. Threat avoidance / Conflict resolution"
+1F32,Large scale validation Experiments,1F0,"Large scale validation Experiments - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Experiments and trials conducted for the purpose of validation. Validation is a risk-reduction activity, especially for complex high-consequence systems. Certification may largely, but not exclusively, be based upon digital techniques based on simulated and validation techniques._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 632)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Validation experiments, trials_x000D_
+_x000D_
+2. Pre-operational trials_x000D_
+_x000D_
+3. Trials - air/ground, ground/air, air/air_x000D_
+_x000D_
+4. Pilot installations to ease the large-scale validation of proposed solutions_x000D_
+_x000D_
+5. Validation of measurement tools and models_x000D_
+_x000D_
+6. Functional mock-ups_x000D_
+_x000D_
+7. Validation at component, sub-system and system levels_x000D_
+_x000D_
+8. Operational validation by flight testing"
+1F22,Development of operational research methods & tools,1F0,"Development of operational research methods & tools - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research to aid the evaluation and analysis of OR techniques for application to aviation issues. The use of operational research (OR) methods and tools to optimise the performance of a system has been well-proven._x000D_
+_x000D_
+By systematic investigation of the characteristics of a system (such as the aviation transport system) and the modelling of its salient aspects, insights can be gained into the performance of the system under different circumstances. The power of what if? modelling enables exploration of different strategies in a controlled_x000D_
+_x000D_
+environment._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 622)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Stakeholder analysis_x000D_
+_x000D_
+2. Development of OR methods_x000D_
+_x000D_
+3. Development of OR tools_x000D_
+_x000D_
+4. Validation of OR tools"
+1F5,Life-cycle Integration,1F0,"Life-cycle Integration - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Life cycle integration is achieved through integrated development - that is, concurrent consideration of all life_x000D_
+_x000D_
+cycle needs during the development process._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 605)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Technology management : Product improvement strategies through technology refresh and insertion methods_x000D_
+_x000D_
+2. Obsolescence Management1. Reliability Engineering methods_x000D_
+_x000D_
+3. COTS management, COTS reliability prediction and assessment methods_x000D_
+_x000D_
+4. Design for Maintainability_x000D_
+_x000D_
+5. Testability: built-in Test_x000D_
+_x000D_
+6. Integrated modular avionics,_x000D_
+_x000D_
+7 Open systems architectures,_x000D_
+_x000D_
+8 Training: embedded training_x000D_
+_x000D_
+9. Whole-life Cost Analysis / Life-cycle cost analysis, Total ownership costs: Re-design costs, Cost matrix"
+1F10,Air Safety Data analysis,1F0,"Air Safety Data analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Systematic analysis of aviation accident / incident data with or without flight exposure data._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 610)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Trend identification_x000D_
+_x000D_
+2. Datamining_x000D_
+_x000D_
+3. Analysis of flight data from day-to-day operations, risk analysis_x000D_
+_x000D_
+4. Compilation of a sample of Air Traffic Management related accidents_x000D_
+_x000D_
+5. Compilation of exposure data (i.e. number of conducted flights)_x000D_
+_x000D_
+6. Estimation of accident rates._x000D_
+_x000D_
+7. Accident Sample Inclusion Criteria_x000D_
+_x000D_
+8. Accident taxonomy_x000D_
+_x000D_
+9. Accident data breakdown: Flight phase, Event types, Fatalities, World regions"
+1F16,Collaborative Decision Making,1F0,"Collaborative Decision Making - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The operational philosophy and associated technologies and procedures that enable the aviation industry to collaboratively manage strategic responses to aviation components operational constraints in a manner that balances operational efficiency with aviation safety._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 616)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Multi-agent systems_x000D_
+_x000D_
+2. Task modelling_x000D_
+_x000D_
+3. Negotiation strategies_x000D_
+_x000D_
+4. Agent-based distributed architecture_x000D_
+_x000D_
+5. Information distribution"
+1F30,Reference Data for R&D Use and live/RT data Use,1F0,"Reference Data for R&D Use and live/RT data Use - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The capture and analysis of background information and reference data that is likely to be used on a range of projects - an R&D information resource._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 630)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Reference Data (bibliographies, abstracts service, statistical information)_x000D_
+_x000D_
+2. Development of libraries of statistics, reference data, bibliographies etc_x000D_
+_x000D_
+3. Ground systems information (library, airport database, aircraft database, live data distribution and recording from ATM system - radar, RDPS, FDPS, CFMU, network exchange messages...)._x000D_
+_x000D_
+4. Airborne systems information ( ACARS messages) and AOC systems, aircraft performance statistics, traffic samples and air movement data."
+1F29,General Purpose Equipment,1F0,"General Purpose Equipment - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+General purpose and miscellaneous equipment that forms part of the R&D technical infrastructure. Includes flying laboratories & experimental aircraft._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 629)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. R&D equipment_x000D_
+_x000D_
+2. Test equipment_x000D_
+_x000D_
+3. Measurement equipment_x000D_
+_x000D_
+4. Development platforms - flying laboratory, experimental aircraft_x000D_
+_x000D_
+5. Laboratory equipment, calibration equipment"
+1F28,Real Time Simulators,1F0,"Real Time Simulators - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Architecture of overall integration simulators, including user requirements and specifications. Also includes simulators that are used for R&D purposes, and common software libraries._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 6028_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Real-time simulator_x000D_
+_x000D_
+2. Experimental simulator_x000D_
+_x000D_
+3. Software issues - common software modules, software libraries"
+1F27,Numerical Models (including Fast Time Simulation),1F0,"Numerical Models (including Fast Time Simulation) - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Numerical models and fast time simulators used in R&D. Includes common software modules and software libraries._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 627)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Numerical models_x000D_
+_x000D_
+2. Mathematical models_x000D_
+_x000D_
+3. System dynamics model_x000D_
+_x000D_
+4. Faster-than-real-time time simulators_x000D_
+_x000D_
+5. Software issues - common software modules, software libraries."
+1F26,Business modelling,1F0,"Business modelling - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The analysis of aviation business matters enables optimum decisions to be reached about the charging policy, route planning, frequency of flying and capacity offered on different routes. It enables cost-effective decisions to be taken in the context of the appropriate regulatory environment._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 626)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Development of business modelling methods and tools_x000D_
+_x000D_
+2. Use of business modelling methods and tools (e.g. yield/revenue management)_x000D_
+_x000D_
+3. Analysis of regulatory aspects of aviation"
+1F25,Airport Performance Assessment,1F0,"Airport Performance Assessment - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The analysis of airport operations enables optimum decisions to be reached about the design, layout and operation of all aspects of the airport - including aircraft movement, passenger handling, and baggage/cargo handling. This should enable the passenger experience to be improved._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 625)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Development of airport operations modelling and analysis methods and tools_x000D_
+_x000D_
+2. Modelling and analysis of aircraft handling/capacity_x000D_
+_x000D_
+3. Modelling and analysis of passenger handling processes and procedures (e.g. checking-in, immigration, boarding etc)_x000D_
+_x000D_
+4. Modelling and analysis of cargo handling"
+1F33,Large scale validation Platforms,1F0,"Large scale validation Platforms - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Large-scale validation rigs necessary to establish and validate the integration of technologies and performance parameters. Links with 'Flight / Ground Tests'. Validation platforms may conduct validation at component, sub-system and system levels._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 633)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Ground validation benches_x000D_
+_x000D_
+2. Aircraft equipped for test and validation in an operational context_x000D_
+_x000D_
+3. Technology demonstrators, technology integration platforms (TIPs)_x000D_
+_x000D_
+4. Integrated platforms for system development, safety analysis and certification_x000D_
+_x000D_
+5. Wind tunnels_x000D_
+_x000D_
+6. Prototyping tools_x000D_
+_x000D_
+7. Digital mock-ups_x000D_
+_x000D_
+8. Validation vehicles for powerplants, avionics, aircraft structure, aircraft systems, flight software_x000D_
+_x000D_
+9. Combined validation platforms for multiple technology programmes_x000D_
+_x000D_
+10. Advanced experimental testbeds"
+1F18,Decision Support Systems,1F0,"Decision Support Systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Decision support focuses on the area of supporting the user in making complex decisions. Decision support facilities consists of mechanisms to sense the outside world and present this in an understandable format to the user and of mechanisms to support the user in performing complex tasks. Improved sensor technology_x000D_
+_x000D_
+and Multi-sensor data fusion techniques have led to better information availability and an increased situation awareness of pilots, air traffic controllers, and other users of aerospace systems. On-board decision support functions for pilots, decision support systems for air traffic controllers, and so on, are becoming of crucial importance for the completion of their missions. Links with 'ATM automated support'._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 618)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. User task modelling_x000D_
+_x000D_
+2. (Intelligent) user interface_x000D_
+_x000D_
+3. Situation assessment_x000D_
+_x000D_
+4. Planning & monitoring (Sequencing, Time scheduling, Mission planning support, Flow planning, Resource allocation, Feedback control, Guidance)_x000D_
+_x000D_
+5. Crew assistant_x000D_
+_x000D_
+6. Traffic flow optimisation"
+1F2,On-board systems engineering,1F0,"On-board systems engineering - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Systems Engineering is an interdisciplinary approach that encompasses the entire technical effort, and evolves into and verifies an integrated and life-cycle balanced set of system people, products and process solutions that satisfy customer needs. [ref. EIA standard IS-632, System Engineering, December 1994]. Onboard Systems Engineering focus on the effort related to the design, manufacturing and validation of onboard systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 602)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Integration system technologies_x000D_
+_x000D_
+2. Modelling and Simulation (including rapid and virtual prototyping)_x000D_
+_x000D_
+3. Incremental Certification_x000D_
+_x000D_
+4. Interconnecting technology_x000D_
+_x000D_
+5. Avionics rig testing_x000D_
+_x000D_
+6. Laboratory systems testing_x000D_
+_x000D_
+7. Interface Control Specification methods: Mechanical interface, Electronic interface, Data exchange"
+1F3,Environmental and EM compliance engineering process,1F0,"Environmental and EM compliance engineering process - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Environmental worthiness is the capability of the (sub)system or component to perform its full array of intended functions in the intended use environments._x000D_
+_x000D_
+Environmental and Electromagnetic compliance engineering deals with the processes needed to define both the environments and the derived equipment requirements, as well as with the design, implementation and verification of these requirements._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 603)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Performance base specifications to define the real use environments_x000D_
+_x000D_
+2. Sources_x000D_
+_x000D_
+3. Advanced Environmental and EMI protection design and verification measures_x000D_
+_x000D_
+4. EMI/EMC/HIRF_x000D_
+_x000D_
+5. Lightning_x000D_
+_x000D_
+6. Hardening_x000D_
+_x000D_
+7. Shock testing"
+1F9,Safety modelling,1F0,"Safety modelling - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Development of static or dynamic models to evaluate safety or unsafety of a new or existing organisation, operation, procedure, technical system, or hazard mitigating measure. Several tools and techniques are used to develop safety models, such as mathematical models, analytical tools, formal techniques, causal safety models, model languages, bias and uncertainty models, safety criteria models, safety requirements models, Monte Carlo simulations, expert elicitation methods._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 609)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Safety perception modelling_x000D_
+_x000D_
+2. Third party risk modelling_x000D_
+_x000D_
+3. Wake vortex induced risk modelling_x000D_
+_x000D_
+4. Collision risk modelling_x000D_
+_x000D_
+5. Dependability modelling_x000D_
+_x000D_
+6. Controlled Flight Into Terrain modelling_x000D_
+_x000D_
+7. Flight security modelling_x000D_
+_x000D_
+8. Bird strike risk modelling_x000D_
+_x000D_
+9. Safety management modelling_x000D_
+_x000D_
+Etc."
+1F4,Flight/ Ground Tests,1F0,"Flight/ Ground Tests - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The testing in flight of an aircraft or item(s) of aircraft equipment. The aims of that testing can be very diverse:_x000D_
+_x000D_
+they may be to investigate new concepts, to provide empirical data to substantiate design assumptions, or to demonstrate that an aircraft and/or its equipment achieve specified levels of performance, etc. Thus flight testing covers a broad spectrum of topics, the common feature of which is that there is a degree of novelty in the aircraft, its equipment or its intended usage, which requires assessment in flight. (Flight-testing is of course, usually preceded by appropriate Ground testing). (Ref.: AGAR Dograph Flight Test Techniques Series 300 Vol. 14: “Introduction to Flight Test Engineering”, NATO, Paris, ISBN 92-836-1020-2)._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 604)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Test planning: Test plan, Flight plan, Test schedule_x000D_
+_x000D_
+2. Test specification: Test cards, Performance, Flight Control, Runway performance, Weapon (integration), Reliability & Maintainability, Interior Noise, Exterior noise, Logistics, Navigation and Communication, Air Data, Flight envelope, Propulsion, Environmental extremes, Avionics, Antenna patterns, Handling qualities, Aero-elasticity/Flutter, Human factors, Ground-Vibration, Pre-flight, Airframe systems, Simulator data gathering_x000D_
+_x000D_
+3. Hazard analysis/Safety: Safety of flight, Recovery, Minimum crew, Risk assessment, On board safety provisions, Engine failure, Deep stall, Flight test safety monitoring, EMI-EMC, Crew safety training, Safety procedures_x000D_
+_x000D_
+4. Test conduct: Test cards / Responsibility distribution /  Procedures / Briefing and Debriefing / Test report_x000D_
+_x000D_
+5. Instrumentation system: Measurement , Data Acquisition and Recording equipment, Calibration_x000D_
+_x000D_
+6. Data processing and analysis: Data archiving, Data reduction, Engineering units, Data retrieval , Flight Test Data Base, Telemetry, Ground monitoring_x000D_
+_x000D_
+7. Logistics support: Spares, Repair, Maintenance, Training_x000D_
+_x000D_
+8. Certification & Qualification: Certification reports, Airworthiness authorities, Certificate of Airworthiness"
+1F6,System Certification,1F0,"System Certification - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Certification means the legal recognition by the certification authority that a product, service, organisation or person complies with the applicable requirements. Such certification comprises the activity of technically checking the product, service, organisation or person and the formal recognition of compliance with the_x000D_
+_x000D_
+applicable requirements by issue of a certificate, license, approval or other documents as required by national laws and procedures._x000D_
+_x000D_
+In particular, certification of a product involves:_x000D_
+_x000D_
+(a) The process of assessing the design of a product to ensure that it complies with a set of standards applicable to that type of product so as to demonstrate an acceptable level of safety._x000D_
+_x000D_
+(b) The process of assessing an individual product to ensure that it conforms with the certified type design._x000D_
+_x000D_
+(c) The issue of any certificate required by national laws to declare that compliance or conformity has been found with standards in accordance with items (a) or (b) above._x000D_
+_x000D_
+(Ref. ARP4754)_x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 606)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Certification of new technologies and operations_x000D_
+_x000D_
+2. Certification of air-worthiness, certification requirements for airborne and non-airborne systems._x000D_
+_x000D_
+3. Incremental certification_x000D_
+_x000D_
+4. System safety assessment_x000D_
+_x000D_
+5. HW / SW certification_x000D_
+_x000D_
+6. Improvement of existing rules and regulations (e.g. Cross-wind criteria, contaminated runway criteria), in the future particularly relevant to ATM in view of complete lack of certification of ATM systems)"
+1F7,Fault Tolerant Systems,1F0,"Fault Tolerant Systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The built-in capability of a system to provide continued correct execution in the presence of a limited number_x000D_
+_x000D_
+of hardware or software faults._x000D_
+_x000D_
+The goal of fault tolerance is to include safety features in the software design or source code to ensure that_x000D_
+_x000D_
+the system will respond correctly to input data errors and prevent output and control errors. The need for fault_x000D_
+_x000D_
+tolerance in a system is determined by the system requirements and the system safety assessment process._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 607)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Fault tolerant mechanisms: Redundancy, Backup (hot, cold,..), Voting mechanism, Fault detection_x000D_
+_x000D_
+2. Parallel processing / Synchronisation mechanisms_x000D_
+_x000D_
+3. Fault propagation, Isolation of fault effects"
+1F14,Infra-red and Radar Signature Control,1F0,"Infra-red and Radar Signature Control - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The knowledge of physical phenomena which contribute to the infrared radiation emitted by an aircraft in flight. Different parts of the aircraft radiate: the airframe, the exhaust jet and the motor for few aspect angles (rear part of the engine and air intake). The first aim is to have an understanding of the physical process which emits radiation in order to reduce it, if it is technologically possible. The airframe signature depends on its temperature and the radiative properties of the material. The temperature itself varies with the flight profile (altitude and speed), the material thermodynamic properties and the internal heat dissipation of electronic systems. The jet infrared signature presents a spectral emission which is characteristic of the chemical species that can be found, mainly water vapour and carbon dioxide. The radiation level is also function of the hot gases temperatures. The motor radiation can be observed for rear angle of aspect, the emission of the nozzle hot parts being partly absorbed by the hot gases in the jet exhaust. Its emission can also be perceived for very specific angle of aspect, when the first stage of the compressor is in direct view from the air intake, or through its propagation along the airduct. The control/reduction of the RCS (Radar Cross Section) of an aircraft is obtained by two main approaches: optimisation of the global or local shape and use of Radar Absorbing Materials (RAM). Modelling the RCS, by numerically solving Maxwell equations, is now a necessary way to define efficient shape modifications and materials. The chosen solutions have to be assessed by ground or in-flight measurements. Radar materials development is an important topic, as any material has to fulfil several functions, needing, for example, thermal or mechanical properties._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 614)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Material thermodynamic and optical properties._x000D_
+_x000D_
+2. Skin temperatures_x000D_
+_x000D_
+3. Internal heat dissipation_x000D_
+_x000D_
+4. Jet aerodynamic description, temperature, pressure and species concentration_x000D_
+_x000D_
+5. Spectroscopic data base of emitting species_x000D_
+_x000D_
+6. Radiative transfer computation in hot gases media_x000D_
+_x000D_
+7. Multi-reflection in cavities_x000D_
+_x000D_
+8. Radar Cross Section computation_x000D_
+_x000D_
+9. Radar Absorbing Materials_x000D_
+_x000D_
+10. Ground RCS measurements_x000D_
+_x000D_
+11. In-flight RCS measurements"
+1F0,Integrated Design & Validation (methods & tools),,"Integrated Design & Validation (methods & tools) - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the IT based methods and tools used to design, develop, manufacture, validate, certify, test and maintain aircrafts and airports. It also includes particular fields like: infra-red and radar signature control and aeronautical software engineering._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 6 and PAE own definition) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-F-1. Methods and IT tools for Collaborative Product & Process Engineering _x000D_
+_x000D_
+1-F-2. On-board systems engineering _x000D_
+_x000D_
+1-F-3. Environmental and EM compliance engineering process_x000D_
+_x000D_
+1-F-4. Flight/ Ground Tests _x000D_
+_x000D_
+1-F-5. Life-cycle Integration _x000D_
+_x000D_
+1-F-6. System Certification _x000D_
+_x000D_
+1-F-7. Fault Tolerant Systems _x000D_
+_x000D_
+1-F-8. Hazard Analysis _x000D_
+_x000D_
+1-F-9. Safety modelling  _x000D_
+_x000D_
+1-F-10. Air Safety Data analysis _x000D_
+_x000D_
+1-F-11. System reliability _x000D_
+_x000D_
+1-F-12. Security / Risk analysis _x000D_
+_x000D_
+1-F-13. Maintenance modelling _x000D_
+_x000D_
+1-F-14. Infra-red and Radar Signature Control _x000D_
+_x000D_
+1-F-15. Advanced information processing _x000D_
+_x000D_
+1-F-16. Collaborative Decision Making _x000D_
+_x000D_
+1-F-17. Simulator environments & Virtual reality _x000D_
+_x000D_
+1-F-18. Decision Support Systems _x000D_
+_x000D_
+1-F-19. Information management & Knowledge management (Methods & tools) _x000D_
+_x000D_
+1-F-20. Autonomous operation _x000D_
+_x000D_
+1-F-21. Aeronautical Software Engineering_x000D_
+_x000D_
+1-F-22. Development of operational research methods & tools _x000D_
+_x000D_
+1-F-23. Development of synthetic environment & virtual reality tools_x000D_
+_x000D_
+1-F-24. Aircraft Performance Assessment _x000D_
+_x000D_
+1-F-25. Airport performance assessment _x000D_
+_x000D_
+1-F-26. Business modelling _x000D_
+_x000D_
+1-F-27. Numerical Models (including Fast Time Simulation) _x000D_
+_x000D_
+1-F-28. Real Time Simulators _x000D_
+_x000D_
+1-F-29. General Purpose Equipment _x000D_
+_x000D_
+1-F-30. Reference Data for R&D Use and live/RT data Use _x000D_
+_x000D_
+1-F-31. Methodology_x000D_
+_x000D_
+1-F-32. Large scale validation Experiments _x000D_
+_x000D_
+1-F-33. Large scale validation Platforms "
+1F15,Advanced information processing,1F0,"Advanced information processing - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Collection of computing methods, techniques and tools, for processing of large quantities of raw data into information, which is essential to the function to be supported and for presentation of this information in a clear and convenient way._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 615)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Radar data processing_x000D_
+_x000D_
+2. Multi sensor data fusion_x000D_
+_x000D_
+3. Real-time systems_x000D_
+_x000D_
+4. Command, Control, Communications & Intelligence (C3I)_x000D_
+_x000D_
+5. Situation monitoring_x000D_
+_x000D_
+6. Alarm management"
+1F21,Aeronautical Software Engineering,1F0,"Aeronautical Software Engineering - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Software engineering is an engineering discipline, which is concerned with all aspects of software production._x000D_
+_x000D_
+It covers theories, methods and tools for professional software development._x000D_
+_x000D_
+Software engineers should adopt a systematic and organised approach to their work and use appropriate tools and techniques depending on the problem to be solved, the development constraints and the resources available. Software engineering is therefore concerned with the practicalities of developing and delivering useful software._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 621)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Requirements capture_x000D_
+_x000D_
+2. Object-oriented analysis & design_x000D_
+_x000D_
+3. Software implementation_x000D_
+_x000D_
+4. Software testing: Integration testing, White/Black box test, Code coverage_x000D_
+_x000D_
+5. Software verification & validation_x000D_
+_x000D_
+6. Software certification: software safety, redundancy, built-in test_x000D_
+_x000D_
+7. Software maintenance"
+1F23,Development of synthetic environment & virtual reality tools,1F0,"Development of synthetic environment & virtual reality tools - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The development of tools to produce virtual reality (VR) and/or synthetic environments (SE). Research to evaluate and analyse the use of VR/SE systems as tools for design, development, selection and training. The use of these tools is dealt with in separate domains._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 623)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. General systems engineering aspects of VR/SE development_x000D_
+_x000D_
+2. Development methodologies for virtual reality (VR)/synthetic environment (SE) tools_x000D_
+_x000D_
+3. Development of VR/SE tools in aircraft context - for cockpit/aircrew_x000D_
+_x000D_
+4. Development of VR/SE tools in aircraft context - for passenger cabin/aircrew_x000D_
+_x000D_
+5. Development of VR/SE tools in aircraft context - for cargo area_x000D_
+_x000D_
+6. Development of VR/SE tools in airport context - for passenger handling area_x000D_
+_x000D_
+7. Development of VR/SE tools in airport context - for cargo/baggage area_x000D_
+_x000D_
+8. Development of VR/SE tools in airport context - for aircraft movement area_x000D_
+_x000D_
+9. Development of VR/SE tools in ATM context - for controllers_x000D_
+_x000D_
+10. Understand the physiological and psychological interactions between humans and VR/SE"
+1F19,Information management & Knowledge management (Methods & tools),1F0,"Information management & Knowledge management (Methods & tools) - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Management of organisational information and knowledge helps creating business value and generating a competitive advantage. It therefore helps to create and retain greater value from core business competencies. As such knowledge management is the discipline dedicated to more deliberate means of people creating and sharing knowledge to make the right decisions and take the right actions._x000D_
+_x000D_
+It combines the processes of capturing, distributing, and effectively using knowledge. (Ref. Davenport 1994)._x000D_
+_x000D_
+Making and storing static representations of a dynamic environment is done in information management._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 619)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Knowledge gathering_x000D_
+_x000D_
+2. Knowledge representation_x000D_
+_x000D_
+3. Knowledge retrieval_x000D_
+_x000D_
+4. Product data management systems_x000D_
+_x000D_
+5. Ontology_x000D_
+_x000D_
+6. Competence management_x000D_
+_x000D_
+7. Web technology_x000D_
+_x000D_
+8. Semantic web_x000D_
+_x000D_
+9. Data mining"
+1F24,Aircraft Performance Assessment,1F0,"Aircraft Performance Assessment - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The analysis of aircraft performance enables optimum decisions to be reached about the use of the aircraft, in terms of the loading (passengers and baggage/cargo), utilisation, and maintenance.._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 624)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Development of aircraft modelling and analysis methods and tools_x000D_
+_x000D_
+2. Modelling and analysis of aircraft capacity_x000D_
+_x000D_
+3. Modelling and analysis of passenger handling_x000D_
+_x000D_
+4. Modelling and analysis of cargo handling"
+1F17,Simulator environments & Virtual reality,1F0,"Simulator environments & Virtual reality - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Virtual Reality is the experience of being in a synthetic environment and the perceiving and interacting through sensors and effectors, actively and passively, with it and the objects in it, as if they were real. Virtual Reality technology allows the user to perceive and experience sensory contact and interact dynamically with such contact in any or all modalities._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 617)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Training Environment: real-time geographically distributed flight-simulations_x000D_
+_x000D_
+2. Mission preparation, rehearsal & evaluation_x000D_
+_x000D_
+3. Concept development_x000D_
+_x000D_
+4. Materiel design_x000D_
+_x000D_
+5. Materiel testing_x000D_
+_x000D_
+6. Personnel selection._x000D_
+_x000D_
+7. Task analysis_x000D_
+_x000D_
+8. Man-in-the-loop simulation"
+1F1,Methods and IT tools for Collaborative Product & Process Engineering,1F0,"Methods and IT tools for Collaborative Product & Process Engineering - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Enhanced Aeronautical Concurrent Engineering: provide a generic development lifecycle to increase understanding between collaborating companies to:_x000D_
+_x000D_
+- Reduce time to bring new product to market._x000D_
+_x000D_
+- Reduce costs._x000D_
+_x000D_
+Collaboration between aeronautical sectors, without (immediately) adapting or changing company tools which leads to a secure and reliable exchange of information between geographically distributed companies (e.g. Internet). Therefore collaborative work will be enhanced between distributed sites, by getting rid of geographical and cultural barriers. This will be achieved by using a Common virtual environment in which anyone can communicate and work with anyone else as in face to face meeting. It provides standardised collaborative work methods and organisational rules for meeting, email, telephone, reviews, memo exchange, gives organisational constraints on skills and responsibilities required and rules for co-located work and distant work._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 601)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Virtual Enterprise_x000D_
+_x000D_
+2. Secure IT infrastructure_x000D_
+_x000D_
+3. Workflow management systems_x000D_
+_x000D_
+4. Virtual environments for collaborative working_x000D_
+_x000D_
+5. Product Lifecycle interaction_x000D_
+_x000D_
+6. Virtual Conferencing"
+1F8,Hazard Analysis,1F0,"Hazard Analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Generally, and formal or informal study, evaluation, or analysis to identify hazards using generic and speciality techniques._x000D_
+_x000D_
+Specifically, qualitative and quantitative assessments of risk in support of design, decision making (validation, evaluation), and risk based regulation._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 608)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Risk and Safety management: analysis (internal/external) and policy:_x000D_
+_x000D_
+1. Safety / Risk management: Operational safety assessment, Risk determination_x000D_
+_x000D_
+1.1. Review of proposed operation_x000D_
+_x000D_
+1.2. Hazard identification and clustering_x000D_
+_x000D_
+1.3. Identification of conflict scenarios_x000D_
+_x000D_
+1.4. Expert judgement to evaluate frequency and severity of hazards_x000D_
+_x000D_
+1.5. Mitigating measures_x000D_
+_x000D_
+2. Safety requirements (rules and regulations):_x000D_
+_x000D_
+2.1. Requirement based testing_x000D_
+_x000D_
+2.2. Requirement evaluation_x000D_
+_x000D_
+2.3. Requirement development"
+1G11,Meteorological,1G0,"Meteorological - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to meteorological phenomena and detection and forecasting systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 711)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Meteorological Modelling: Climatic Models, Weather Models, Weather Forecasting, Weather Measurement, Nowcasting, Meteorological data fusion._x000D_
+_x000D_
+Comments: forecasting and nowcasting. Includes the aircraft as a flying meteorological station. Includes the compilation, distribution and exploitation of meteorological information from the application perspective._x000D_
+_x000D_
+2. Wake-vortex Tracking and Approach Control : Wake Vortex, Vortex Measurement, Wake Vortex Categories._x000D_
+_x000D_
+Comments: Wake vortex related studies, detection systems. Include wind vortices measurement and aircraft wake vortex categories._x000D_
+_x000D_
+3. Other Atmospheric Phenomena: Wind Shear, Wind Phenomena, Atmospheric Phenomena, Mountain Wave Events, Precipitation, Turbulence, CAT._x000D_
+_x000D_
+Comments: Wind, Turbulence, Precipitation and other atmospheric phenomena, including wind shear, wind measurement and prediction, wind modelling, volcanic ash and mountain wave events forecasting."
+1G12,R&D Management and Co-ordination,1G0,"R&D Management and Co-ordination - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains concerned with the management of R&D resources._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 712)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. R&D Management and Co-ordination: Overhead, Management, Administration, R&D Co-ordination, Working Panels, Steering groups, review Bodies._x000D_
+_x000D_
+Comments: includes overhead activities, also international working and liaison activities, meetings etc."
+1G10,Airline Operations,1G0,"Airline Operations - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains concerned with airlines/aircraft operators, their flight operations and their interactions with ATM._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 710)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Airline Operations: Airline Operations, Despatch, Fleet Scheduling, Crew Roistering and Scheduling, Aircraft Operations, Timetables, Flight Planning Process, AAC, AOC, Flight Efficiency, Flight Economics,_x000D_
+_x000D_
+Flight Time, Flight Duration, Fuel Burn, CDM (airlines part), Collaborative Flight Planning, Flight Schedules, Block Time._x000D_
+_x000D_
+Comments: Studies of the relevant ground operations and flight operations of commercial airlines and other aircraft operators, where relevant to ATM. Includes all forms of ATM-Airline interworking and collaborative decision-making as well as co-ordination of planning, operational policies, fleet scheduling, timetabling, route/service planning and flight planning processes, operational constraints, despatch, airline-aircraft (AOC) communications, airline commercial issues. In connection with flight operations, this sub-domain includes studies of flight economics and the impact of trajectory profiles and delays on fuel burn, flight time, flight efficiency etc_x000D_
+_x000D_
+2. Freight Operations."
+1G9,Airport Operations,1G0,"Airport Operations - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains concerned with airports operators, their flight operations and their interactions with ATM, their processes to handle the traffic, passengers and baggage._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 709)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Airport Operations: Airport Operations Studies: studies of aspects of airport operations relevant to ATM,_x000D_
+_x000D_
+and improvements to Airport-ATM interworking, including interworking among, En-route/TMA ATC, Tower_x000D_
+_x000D_
+ATC, Ground Movement Control, Apron Management, Terminal Operations, hub operations, hub feeding._x000D_
+_x000D_
+Comments: Airport Operations, Terminal Operations, ATC-Airport planning & co-ordination, Handling Agents,_x000D_
+_x000D_
+Apron Management, Stand Management, Terminal Operations._x000D_
+_x000D_
+2. Vertical Take-off and landing traffic handling._x000D_
+_x000D_
+3. Airport Architecture, design and new concepts: Airport organisation and design, Cluster of airports, holistic_x000D_
+_x000D_
+design, terminal organisation_x000D_
+_x000D_
+4. Airport Passenger and baggage handling Processes: Movement of passengers inside the building, role of_x000D_
+_x000D_
+the passenger, information of the passenger. Baggage handling processes._x000D_
+_x000D_
+5. Inter-modality: Interface with other modes of transport: train, hub feeder, road, etc…"
+1G8,Airport Traffic Management,1G0,"Airport Traffic Management - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to airport ATC, traffic management and ATM-related airport systems and operations._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 708)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Airport Capacity and Runway Utilisation: Airport Capacity, Runway Capacity, Runway Utilisation, Taxiway Capacity, Airport Throughput, Airport Capacity Optimisation, Mixed-mode Operations, Parallel Runway Operations, Runway incursion, Wildlife hazards, Birds, Low Visibility._x000D_
+_x000D_
+Comments: Airport capacity and runway utilisation related R&D, including capacity studies, airport capacity modelling and measurement, runway incursion monitoring, management of wildlife hazards, airport capacity in low visibility conditions_x000D_
+_x000D_
+2. Approach Aids and Procedures: ILS, Microwave Landing Systems, MLS, Controlled Flight Into Terrain, CFIT, GPS Approaches, WADGPS, LADGPS, GNSS Approaches, Pseudolite, CAT 1, CAT 2, CAT 3a,b,c,_x000D_
+_x000D_
+Precision Approach, AWOP, Autoland, Enhanced Vision Systems, SIDs, STARs, low visibility approach and landing._x000D_
+_x000D_
+Comments: Approach, Landing and Departure aids and procedures : safety and validation of subsystems, monitoring. Includes the application of GNSS and augmentation systems to approach and landing, also approach and landing and departure in low visibility conditions._x000D_
+_x000D_
+3. Airport ATC and Information Systems: Integrated Airport Information Systems, ATIS, Wireless airport communications system, Airport LAN, Gatelink._x000D_
+_x000D_
+Comments: Application interface between Airports and Wide Area Networks (WANS) for gate-to-gate ATM. Information services provided by the airport, e.g. ATIS._x000D_
+_x000D_
+4. Surface Movement Guidance and Control: Taxiing, Manoeuvring Area, Taxiway, Pre-departure Clearance, Push-back, Ground Trajectory, Tower Control, Airport Surveillance, SMGC, A-SMCGS._x000D_
+_x000D_
+Comments: ground movement surveillance, Airport ATC systems. Covers issues of aircraft identification during taxiing. Low visibility issues for surface movements, separation of aircraft and ground mobiles and obstacles."
+1G7,ATM automated support,1G0,"ATM automated support - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to ATC Planning, Controller Tools and Automation. Links with domain 'Decision Support Systems‘._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 707)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. ATC Automation & Controlling Tools : ATC automation, controller tools, simulations with tools, level of automation, MTCD, planning tools, sequencing and metering tools, conflict resolution tools, conflict probe, conformance monitoring tools, SMGC tools, STCA, MSAW._x000D_
+_x000D_
+Comments: ground based data processing to support automation for the controller, simulations with tools, level of automation. Include STCA, MSAW, MTCD, Planning support tools, Conflict resolution tools, Conformance monitoring tools, sequencing and metering tools._x000D_
+_x000D_
+2. Controller Work Station and Situation Display: Controller workstation, Display systems, Controller preferences, Electronic Strips._x000D_
+_x000D_
+Comments: work station architecture (software and hardware), display systems, HMI design._x000D_
+_x000D_
+3. Flight Data Processing Systems: FDPS, Flight Data Processing, Flight Plans, Flight Progress Monitoring, Aircraft Derived Data._x000D_
+_x000D_
+Comments: Flight data processing systems: flight data database requirements and design, exploitation of aircraft-derived data._x000D_
+_x000D_
+4. Traffic Management and Trajectory Planning: Traffic Management, Trajectory Planning, Multi-sector Planning, Planning Horizon, Trajectory Planning Systems, Ground movement planning, Slot swapping / shifting, Airspace Allocation, Conflict Free Trajectory Clearances, Traffic Management - ATFM interworking,_x000D_
+_x000D_
+Traffic Management-Sector Interworking. Advanced Planning, Extended Planning, Start up and pushback planning, Trajectory Synchronisation, Traffic Sequencing, Traffic Metering, Queues, Holds, Buffers, Choke Points, AMAN (Arrival manager), DMAN (Departure Manager)._x000D_
+_x000D_
+Comments: Traffic Management and Trajectory Planning processes and systems. Multi-sector planning. Extension of the trajectory planning horizon. 3D and 4D Planning of conflict-free trajectories and clearances/airspace allocations. Traffic sequencing, metering and trajectory synchronisation. Advanced trajectory-based planning systems. Processes that sit between ATFM and Tactical Control. Interfaces and interworking between TMTP processes and systems and those associated with ATFM and CFMU also those associated with tactical sector control. Includes co-ordination between choke points, management of queues and buffers._x000D_
+_x000D_
+5. Air Ground Integration Studies: Air-ground integration, Air-ground interworking, Pilot-Controller Cooperation, Controller-Pilot Data Link Communications, CPDLC, AOC, AAC, AIS, FIS, ASAS (not procedures)._x000D_
+_x000D_
+Comments: Air/Ground Integrated studies focusing on the application and use of datalinks. Includes ATS and (where they utilise the same datalink) the impact of AOC applications. The main focus is on air-ground interworking, pilot-controller co-operation, integration of the aircraft into the ATM system._x000D_
+_x000D_
+6. Monitoring & Support Systems including Reliability & Integrity Studies: ATM system monitoring, system reliability, system resilience, incident monitoring, separation infringement, recording and replay."
+1G6,Surveillance Sensor Systems,1G0,"Surveillance Sensor Systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains concerned with surveillance technology and systems. Links with NAV - 'Navigation/Flight Management/Autoland'._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 706)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Surveillance Analysis & Calibration Tools: Radar measurement, Radar calibration, Surveillance accuracy, Data fusion accuracy, Surveillance coverage, Height measurement, HMU, ADS accuracy, Surveillance integrity._x000D_
+_x000D_
+Comments: development of facilities and methods for the analysis and evaluation of surveillance systems and their processing systems. Include height measurement where it is a surveillance_x000D_
+_x000D_
+measurement/calibration issue._x000D_
+_x000D_
+2. Radar Surveillance and other independent sensors: Primary Radar, Secondary Surveillance Radar, Radar Antennas, E-Scan, Millimetre Wave Radar, Tracking Radars, Doppler Radars, Electronically Steered Radars, Wind Shear Detection (by radar), Wake Vortex Detection (by radar), Weather Radar, Mode-S Enhanced Surveillance, Specific sensors for SMGCS : microphones, laser, optical, proximity sensors etc…_x000D_
+_x000D_
+Comments: studies of radar-based surveillance systems. Primary and secondary ground-based radars, antennas, sensors, technologies. Includes specialised radars for wind-shear and wake vortex detection applications, tracking radars, Mode-S for enhanced surveillance._x000D_
+_x000D_
+3. ADS & Data Link Surveillance: ADS SARPS, Automatic Dependent Surveillance, ADS, ADS-Broadcast, ADS-B, Aircraft derived data._x000D_
+_x000D_
+Comments: standards, specifications, validation and safety of subsystems, means to derive position, identity and state vector information. Include ADS-B and ADS applications using any datalink technology._x000D_
+_x000D_
+4. Surveillance Sensor Data Processing: Sensor Data fusion, ARTAS application._x000D_
+_x000D_
+Comments: validation methods, prototyping, sources of surveillance data, standards and procedures."
+1G5,Navigation Systems,1G0,"Navigation Systems - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to navigation techniques and systems.._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 705)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Satellite Navigation Systems: GPS, GPS Integrity, Differential GPS, GNSS, GLONASS, GNSS-2, WGS 84, Geodetic References, GNSS Augmentation, GPS Augmentation systems, Pseudolites, EGNOS, GPS Overlay._x000D_
+_x000D_
+Comments: navigation data base and grid co-ordinate systems, specifications, interfaces, validation and safety of subsystems, augmentation and overlay systems._x000D_
+_x000D_
+2. Operational Navigation System: RVSM, PRNAV, RHSM, RNP, Navigation System, Altimetry, terrestrial nav-aids, LORAN, DME, beacons, VOR, NDB._x000D_
+_x000D_
+Comments: all means necessary for aircraft to determine its own position, height and other dynamic characteristics; guidance of the aircraft; validation and safety of subsystems. Includes Reduced Vertical and Horizontal Separation, Precision RNAV, RNP Standards, multi-mode integrated navigation systems. Include_x000D_
+_x000D_
+altimetry techniques; terrestrial navigation aids."
+1G4,Communications and Systems Technology,1G0,"Communications and Systems Technology - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to communications technology and systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 704)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. ATN & Communication Architecture: Aeronautical Communications Network, ATN, Network Architecture, Communications Architecture, ISO OSI Communications, Network Management._x000D_
+_x000D_
+Comments: overall design, interfaces, system standards, specifications, network management, validation and safety of subsystems._x000D_
+_x000D_
+2. Satellite Communication Sub-network: Satellite Communications, Satellite Datalink, Satellite sub-network, Satellite Communications Security, Satellite Communications Integrity._x000D_
+_x000D_
+Comments: overall design, interfaces, system standards, specifications, validation and safety of subsystems._x000D_
+_x000D_
+3. VHF Data Link and Voice Sub-network: VHF Datalink, VDL, VHF Voice, 8.33 kHz, VHF Digitised Voice Communications, VHF communications integrity, VHF Sub-network, VHF communications security, VHF Frequencies, VDL Mode 1, VDL Mode 2, VDL Mode 3, VDL Mode 4, STDMA._x000D_
+_x000D_
+Comments: VHF data link and voice sub-networks and technologies for all modes of VHF communications. Includes overall design, interfaces, specifications, validation and safety of subsystems._x000D_
+_x000D_
+4. Mode-S Datalink Sub-network: Mode-S Datalink, Mode-S Sub-network, Mode-S SARPS, Mode-S Communications Integrity, Air-Air datalink, Broadcast Datalink._x000D_
+_x000D_
+Comments: overall design, interfaces, system standards, specifications, validation and safety of subsystems. Includes Mode-S technology for air-air (ACAS) datalink and broadcast (ADS-B)._x000D_
+_x000D_
+5. Ground Network: Ground Networks, Ground Sub-networks, Network Management, Communications Routers, WANs, Gateways, Internet, ARTAS, Voice networks, AHMS._x000D_
+_x000D_
+Comments: overall design, WAN interfaces, system standards, specifications, validation and safety of subsystems. Includes ground communications networks for: voice, data and radar data distribution, (e.g. ARTAS), and ATN ground sub-networks and ATN internet/backbone."
+1G3,Flow and Capacity Management,1G0,"Flow and Capacity Management - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains concerned with ATFM, Demand Management and Capacity Management topics._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 703)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Air Traffic Flow Management: Air Traffic Flow Management, ATFM, CFMU, Initial Flight Plan Processing, IFPS, Demand-Capacity Balancing, DCB, Demand Management, Slot Allocation, Capacity Prediction, Demand Forecasting, Traffic Load Prediction, FMP._x000D_
+_x000D_
+Comments: Flow Management, Capacity Management and Demand Management concepts, working rules, information requirements, co-ordination requirements, data processing, operational data bases."
+1G2,Airspace Management,1G0,"Airspace Management - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to the structure and organisation of the airspace and relevant procedures for flight and traffic control._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 702)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Airspace Organisation and Procedures: Airspace Management, ASM, Airspace Design, Airspace Organisation, Airspace Structure, Routes, Flexible Use of Airspace, FUA, Airspace Regimes, ASM_x000D_
+_x000D_
+Procedures, ATC Procedures._x000D_
+_x000D_
+Comments: working rules, methods, routes network; airspace structures; airspace management; civil/military co-operation; ASM procedures, procedures for use of the airspace and for air traffic control._x000D_
+_x000D_
+2. Separation Minima: Separation Minima, Separation Standards, Procedural Control, Radar Minima, Radar Separations, ADS Separations, HMU, Height Monitoring, Collision Risk._x000D_
+_x000D_
+Comments: Separation standards and minima for procedural environment and for different surveillance environments (SSR, ADS, multi radar coverage), also free flight, height monitoring."
+1G1,Overall ATM,1G0,"Overall ATM - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Contains all sub-domains relating to system-wide and gate-to-gate issues._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 701)_x000D_
+_x000D_
+ _x000D_
+_x000D_
+ _x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Concepts and Scenarios: Operational concept, Operational philosophy, Mission, Objective, Context scenario, Operational objective, User requirement._x000D_
+_x000D_
+Comments: concept options and evaluations; concept definition; operational concepts (ATFM, ASM, ATC); standard scenarios; institutional issues; ATM Objectives, User requirements; definition of operational contexts._x000D_
+_x000D_
+2. ATM Architecture and Overall System Engineering: System-wide issues, system engineering, transition strategy, transition planning, implementation planning,  implementation roadmap, functional architecture, logical architecture, physical architecture, infrastructure, operational requirements._x000D_
+_x000D_
+Comments: Overall ATM system architecture including the ground, airborne and satellite functions and system elements, system standards, system engineering, specifications, operational requirements, configuration management, implementation planning issues, transition design issues, system safety. Addresses system-wide issues, including transition._x000D_
+_x000D_
+3. Information Management in Operational ATM: Information Requirements, Information Architecture, Communication requirements for controllers and pilots, Data Warehousing, Information Sharing, Information Resource, Information Pool. Acquisition, storage, processing, distribution of information. System-wide information. Information Quality, SWIM, System-Wide Information Management, security-confidentiality ownership of the data, European AIS Database._x000D_
+_x000D_
+Comments: system-wide studies of information needs and information systems, including information requirements, usage, sharing, acquisition, processing, storage, dissemination, deletion. Includes information sharing, particularly in the CDM context, also encompassing information exchange and sharing with external stakeholders in ATM. Information quality issues are covered. Includes information  requirements for controllers and pilots (e.g. flight plan and surveillance data, air derived data, met data, airspace structure data, ASM data); communications requirements for controllers and pilots. Links with CDM - 'Collaborative Decision Making', IKM 'Information management & Knowledge management'._x000D_
+_x000D_
+4. Radio Frequency Studies: Frequency Allocation, Frequency Coverage, Interference, Modulation Class, Spectrum Utilisation, Propagation, ITU._x000D_
+_x000D_
+Comments: studies of the allocation and usage of radio frequencies. Covers the entire useful RF spectrum, allocation to different services, geographical allocation, geographical coverage, changes of use, current and future usage, interference problems etc. ITU issues. Propagation studies, modulation techniques, spectrum utilisation efficiency, path reliability and related studies. RF Licensing and charges issues._x000D_
+_x000D_
+5. Capacity, Safety and Economic Appraisal Studies: Performance indicators, Cost-benefit analysis, CBA, System capacity, Service capacity, Airspace capacity, Capacity utilisation, Safety, Internal efficiency, System effectiveness, Service Levels, QoS, Delays, TLS, Resilience, Security, Charges, Simulations, Business Case, Basic traffic forecast._x000D_
+_x000D_
+Comments: identification of capacity, safety and efficiency measures, cost-benefit analyses, performance indicators. Includes studies of capacity and delay, ATM efficiency, safety, resilience, security. Includes application of fast-time and real-time simulations to assess capacity, safety etc., also cost-benefit assessments in the preparation of business cases."
+1G0,Air Traffic Management,,"Air Traffic Management - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the air traffic management related technologies including: overall ATM and ATM automated support, airspace management, flow and capacity management, systems (communications, navigation, surveillance sensor, etc…), airport traffic and operations, meteorological and ATM R&D management._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 7 and PAE own definition)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-G-1. Overall ATM _x000D_
+_x000D_
+1-G-2. Airspace Management _x000D_
+_x000D_
+1-G-3. Flow and Capacity Management _x000D_
+_x000D_
+1-G-4. Communications and Systems Technology _x000D_
+_x000D_
+1-G-5. Navigation Systems _x000D_
+_x000D_
+1-G-6. Surveillance Sensor Systems _x000D_
+_x000D_
+1-G-7. ATM Automated Support _x000D_
+_x000D_
+1-G-8. Airport Traffic Management _x000D_
+_x000D_
+1-G-9. Airport Operations _x000D_
+_x000D_
+1-G-10. Airline Operations _x000D_
+_x000D_
+1-G-11. Meteorological _x000D_
+_x000D_
+1-G-12. R&D Management and Co-ordination"
+1H0,Airports,,"Airports - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the airport related technologies including: security equipment, crisis management, airport external safety and airport security._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 8 and PAE own definition)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-H-1. Security Equipment _x000D_
+_x000D_
+1-H-2. Crisis Management _x000D_
+_x000D_
+1-H-3. Airport External Safety _x000D_
+_x000D_
+1-H-4. Airport Security _x000D_
+_x000D_
+ "
+1H4,Airport Security,1H0,"Airport Security - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Airport security measures are the physical protection measures required in order to protect aircraft, airport staff, passengers and crew when on the ground. This includes blocking terrorist access to the aircraft when on the ground. Specific technologies are addressed in the Security Equipment area. Links also with SSS – ‘Surveillance Sensor Systems’. Cybersecurity issues affecting airport systems and subsystems are also included here._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 804 and PAE insertion about Cybersecurity)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Surveillance systems - sensors (e.g. CCTV, radar/RF, IR, visual)_x000D_
+_x000D_
+2. Surveillance systems - processing (e.g. image motion stabilisation, automatic recognition of faces/number plates, video tracking)_x000D_
+_x000D_
+3. Passenger profiling, co-ordinated with law enforcement and intelligence databases, to detect possible terrorists and other security risks. Passengers flagged as high-risk should be diverted to a screening process with more intensive human interaction and sophisticated detection equipment. Possible establishment of pool_x000D_
+_x000D_
+of pre-screened passengers who can be processed through airport security more quickly._x000D_
+_x000D_
+4. Passenger identification and verification (e.g. biometrics - voice recognition, face recognition, hand geometry, fingerprints, iris recognition)_x000D_
+_x000D_
+5. Development of systems for strict accountability for luggage loaded on aircraft (e.g. Positive Passenger Bag Matching - PPBM)_x000D_
+_x000D_
+6. Tracking of cargo and baggage within the airport (e.g. RFID tags)_x000D_
+_x000D_
+7. Physical protection measures to prevent unauthorised entry into secure areas._x000D_
+_x000D_
+8. Cybersecurity affecting airport systems and subsystems."
+1H3,Airport External Safety,1H0,"Airport External Safety - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Quantitative probabilistic assessment of risk to the population in the vicinity of an airport. The risk is composed of the following three submodels: accident probability per movement, the accident location and the resulting lethality. The risk can be expressed in terms of individual risk and / or societal risk, meaning risk imposed to a group of a certain size._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 803)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Development of methods, (sub)models and software tools to assess risk to the population in the vicinity of airports_x000D_
+_x000D_
+2. Risk assessments using these tools_x000D_
+_x000D_
+3. Support to development of appropriate risk tolerability criteria_x000D_
+_x000D_
+4. Validation and evaluation of risk models and data_x000D_
+_x000D_
+5. Collection of input data: population, aircraft movements, aircraft routes, historical accident data, terrain data"
+1H2,Crisis management,1H0,"Crisis management - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It is necessary for the aviation security system to be able to respond appropriately to a wide range of different incidents. The effective management of such crises will require the integration of the efforts of all security systems and personnel involved._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 802)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Operational planning tools (including decision-support systems)_x000D_
+_x000D_
+2. Interactive computer-based systems to model the effects of major incidents, to allow staff the opportunity to practise and develop their responsibilities, to stress networks, and to establish weak points in the chain of aviation security in a safe environment"
+1H1,Security Equipment,1H0,"Security Equipment - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Systems for the detection and neutralisation of threats posed by weapons and explosives. Includes the use of advanced technology to eliminate the ability of terrorists to conceal improvised explosive devices, weapons, and flammable gas or liquid explosives on aircraft. Achieved by processing passengers, crew, baggage and cargo through weapons and explosives detection machines: portals for people to walk through, portable machines for screeners to use, and bulk screening for cargo and baggage._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 801)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Secure communications links between key parts in the aviation security system_x000D_
+_x000D_
+2. Containerised/Palletised Inspection Systems_x000D_
+_x000D_
+3. Trace and Bulk Explosive Detection (e.g. thermal neutron analysis (TNA), CTX machines, canine searches)_x000D_
+_x000D_
+4. Weapon Detection (e.g. metal detectors, passive millimetre wave imaging, invasive ionising radiation (X-rays) )"
+1I2,Human Information Processing,1I0,"Human Information Processing - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Research into the ways in which humans gather and process information, converting data into knowledge, studies of human sensory, perceptual and cognitive processes._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 902)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Knowledge engineering_x000D_
+_x000D_
+2. Information gathering_x000D_
+_x000D_
+3. Information processing (aircrew, ATM, ground staff)_x000D_
+_x000D_
+4. Cognitive aspects of operator performance_x000D_
+_x000D_
+5. Human error and reliability studies"
+1I0,Human Factors,,"Human Factors - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the human factors influencing the diverse aviation related tasks, including: man-machine interface, human information processing and performance modelling & enhancement. Also includes human health related aspects (survivability, stress and protection) and humans and security. Selection and training are also in this area._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 9 and PAE own definition)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-I-1. Human Factors Integration, Man-machine Interface _x000D_
+_x000D_
+1-I-2. Human Information Processing _x000D_
+_x000D_
+1-I-3. Human Performance Modelling & Enhancement _x000D_
+_x000D_
+1-I-4. Selection & Training _x000D_
+_x000D_
+1-I-5. Human Survivability, Protection and Stress Effects _x000D_
+_x000D_
+1-I-6. Human Element in Security _x000D_
+_x000D_
+ "
+1I3,Human Performance specific_arealing & Enhancement,1I0,"Human Performance specific_arealing & Enhancement - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Measuring and modelling the effectiveness of people in the aviation system, both on the ground and in the air. Includes the ATM and aircrew (pilot, navigator, flight engineer) requirements for the role of the human in the systems (i.e. display, ergonomics) including airborne, cockpit and ground control systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 903)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Crew workload optimisation, error-tolerant systems_x000D_
+_x000D_
+2. Measurement and modelling of controller and pilot performance in the ATM system_x000D_
+_x000D_
+3. Measurement and modelling of aircrew performance_x000D_
+_x000D_
+4. Evaluation of human factors procedures_x000D_
+_x000D_
+5. Team working_x000D_
+_x000D_
+6. Self separation_x000D_
+_x000D_
+7. The human as a supervisor (both the pilot and/or the controller)_x000D_
+_x000D_
+8. Tasks sharing, task delegation_x000D_
+_x000D_
+9. Pilot less a/c_x000D_
+_x000D_
+10. Research and techniques to sense and monitor human performance, including physiological sensing and monitoring_x000D_
+_x000D_
+11. Studies of interventions (excluding training) that enhance individual physical and mental performance"
+1I4,Selection & Training,1I0,"Selection & Training - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Covers the requirements for recruitment, selection, training, licensing, working practices and staff management of all personnel in the aviation system, both in the air and on the ground. Addresses aptitude, personal qualities, physical characteristics, manpower modelling and system complementing._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 904)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Recruitment and selection of aircrew (methods, facilities, evaluation)_x000D_
+_x000D_
+2. Recruitment and selection of ATM personnel (methods, facilities, evaluation)_x000D_
+_x000D_
+3. Recruitment and selection of ground crew (methods, facilities, evaluation)_x000D_
+_x000D_
+4. Training of aircrew (methods, facilities, evaluation)_x000D_
+_x000D_
+5. Training of ATM personnel (methods, facilities, evaluation)_x000D_
+_x000D_
+6. Training of ground crew (methods, facilities, evaluation)_x000D_
+_x000D_
+7. Staff management and working practices (shift work, roistering etc)_x000D_
+_x000D_
+8. Certification and licensing aspects_x000D_
+_x000D_
+9. Training needs analysis_x000D_
+_x000D_
+10. Management of skill acquisition and skill fade"
+1I1,"Human Factors Integration, Man-machine Interface",1I0,"Human Factors Integration, Man-machine Interface - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+The integration of separate strands of human factors (HF), and the interfaces between humans and technologies, to provide a holistic picture of the role, effectiveness and improvement of human personnel in the aviation systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 901)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Human-machine/computer interface (HMI, HCI, MMI) - design and evaluation_x000D_
+_x000D_
+2. Displays - Colour, 3D display, Virtual reality, Information presentation_x000D_
+_x000D_
+3. HF integration_x000D_
+_x000D_
+4. Development of methods, tools and processes to support the integration of people with complex systems_x000D_
+_x000D_
+5. Vision modelling and auditory communication studies_x000D_
+_x000D_
+6. Anthropometric studies"
+1I6,Human Element in Security,1I0,"Human Element in Security - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Optimisation of human performance and contributions through better operator selection, training, and performance monitoring . Relates especially to the various detection technologies, but all personnel in them aviation transport system should be addressed._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 906)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Pilot training for response to hijack incidents (computer- and simulator-based)_x000D_
+_x000D_
+2. Baggage and cargo screener selection_x000D_
+_x000D_
+3. Baggage and cargo screener training (e.g. Threat Image Projection, performance management)_x000D_
+_x000D_
+4. Baggage and cargo screener management (shift and duty time rosters, team leadership)_x000D_
+_x000D_
+5. Background security checks for personnel having access to secure areas"
+1I5,"Human Survivability, Protection and Stress Effects",1I0,"Human Survivability, Protection and Stress Effects - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Studies relating to the impact of stressors on human performance, behaviours and well-being. Includes impact of irregular duty cycles, sleep loss, physical and mental strain, prevention of musculo-skeletal injuries._x000D_
+_x000D_
+Research to understand issues covering the physical and mental health (including stress) aspects of personnel, both in the air and on the ground._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 905)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Health and safety/occupational health aspects for aircrew (methods, facilities, evaluation)_x000D_
+_x000D_
+2. Health and safety/occupational health aspects for ATM personnel (methods, facilities, evaluation)_x000D_
+_x000D_
+3. Health and safety/occupational health aspects for ground crew (methods, facilities, evaluation)_x000D_
+_x000D_
+4. Health and safety/occupational health aspects for passengers (methods, facilities, evaluation)_x000D_
+_x000D_
+5. Personnel response to blast and fire (injuries sustained, casualty rates etc)_x000D_
+_x000D_
+6. Personnel protective systems - aircrew_x000D_
+_x000D_
+7. Personnel protective systems - passengers_x000D_
+_x000D_
+8. Personnel protective systems - ground crew"
+1J4,Hybrid & Electric Power and Propulsion,1J0,"Hybrid & Electric Power and Propulsion - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It includes all the concepts of turboelectric, hybrid and pure electric power plants._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own elaboration)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Turbo-electric power plants_x000D_
+ Hybrid power plants_x000D_
+_x000D_
+_x000D_
+Electric power plants"
+1J3,Breakthrough technologies,1J0,"Breakthrough technologies - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+New air transport paradigms may evolve from speculative, exploratory research and concept studies._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 1003 except subdomains 4, 5 and 6 included into 1-K UAS technologies)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. New materials_x000D_
+_x000D_
+2. Advanced design technologies_x000D_
+_x000D_
+3. Alternative fuels_x000D_
+_x000D_
+4. Technology watching_x000D_
+_x000D_
+5. Nanotechnology"
+1J2,Unconventional configurations and new aircraft concepts,1J0,"Unconventional configurations and new aircraft concepts - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Radically new concepts in aircraft design could provide step changes - in flexibility of cabin layout (allowing for more specific tailoring of cabin space for business or leisure purposes) and reductions in operating costs resulting from highly integrated airframes, avionics and engines._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 1002)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Blended wing/body airliners_x000D_
+_x000D_
+2. Supersonic or hypersonic airliners_x000D_
+_x000D_
+3. Lighter-than-air (LTA) vehicles/airships - cargo transport, surveillance, communications, remote imaging_x000D_
+_x000D_
+4. Very large payload capacity aircraft - cargo transports, airliners, utilisation of Wing In Ground effect (WIG)_x000D_
+_x000D_
+5. Fully automated aircraft - 24 hour a day operation_x000D_
+_x000D_
+6. Tilt-rotor and other vertical take-off and landing (VTOL) configurations_x000D_
+_x000D_
+7. Hybrid configurations_x000D_
+_x000D_
+8. Dedicated freight aircraft operations using separate infrastructures from passenger airliners - inter-modality issues_x000D_
+_x000D_
+9. Interface with airport ground systems"
+1J1,Scenarios analysis,1J0,"Scenarios analysis - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Scenarios provide a means for raising the awareness of decision-makers towards the implications of plausible possible futures, Scenario-based planning tells a series of consistent stories about the future outcome of existing paradigms and trends._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Domain 1001)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1. Identification of drivers of change (technological, demographic, cultural, political)_x000D_
+_x000D_
+2. Elaboration of basic trends (societal, cultural)_x000D_
+_x000D_
+3. Key uncertainties - derivation, analysis_x000D_
+_x000D_
+4. Scenario generation_x000D_
+_x000D_
+5. Scenario analysis_x000D_
+_x000D_
+6. Drivers for future research - agenda setting and evaluation"
+1J0,Innovative Concepts & Scenarios,,"Innovative Concepts & Scenarios - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises any innovative scenario, configuration or aircraft system as well as breakthrough technologies in aviation._x000D_
+_x000D_
+ _x000D_
+_x000D_
+It also includes hybrid and electric power and propulsion systems as very promising ones for the future aircrafts._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: ACARE Area 10 and PAE own definition)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-J-1. Scenarios analysis _x000D_
+_x000D_
+1-J-2. Unconventional configurations and new aircraft concepts _x000D_
+_x000D_
+1-J-3. Breakthrough technologies _x000D_
+_x000D_
+1-J-4. Hybrid & Electric Power and Propulsion_x000D_
+_x000D_
+ "
+1K2,Ground station technologies,1K0,"Ground station technologies - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the specific technologies related with the development of ground stations for remote piloting and control individual or groups of UAVs flight._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own definition based on diverse sources)_x000D_
+_x000D_
+  -"
+1K4,UAV-ATM technologies,1K0,"UAV-ATM technologies - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the specific technologies related with the air traffic control of remote piloted aerial systems and their integration into the overall ATM system._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own definition based on diverse sources)_x000D_
+_x000D_
+  -"
+1K0,Unmanned Aerial Systems Technologies,,"Unmanned Aerial Systems Technologies - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the specific technologies related with the development of unmanned (without an onboard human pilot) aerial systems including any kind of vehicles, the necessary ground stations for remote piloting and control, the communications between the UAVs and with the ground station and the technologies related with the ATM for this type of aircrafts._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own definition based in diverse sources, including ACARE Domain 1003, subdomains 4, 5 and 6)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-K-1. UAV technologies_x000D_
+_x000D_
+1-K-2. Ground station technologies_x000D_
+_x000D_
+1-K-3. Communication technologies_x000D_
+_x000D_
+1-K-4. UAV-ATM technologies_x000D_
+_x000D_
+ "
+1K3,Communication technologies,1K0,"Communication technologies - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the specific technologies related with the communication between UAVs flying together and with their corresponding ground stations._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own definition based on diverse sources)_x000D_
+_x000D_
+  -"
+1K1,UAV technologies,1K0,"UAV technologies - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+It comprises all the specific technologies related with the development of unmanned aerial systems including any kind of vehicles: fixed wing, helicopter type, multi-copter and any other kind of robotized aerial vehicle able to flight without an onboard human pilot._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: PAE own definition based in diverse sources + Subdomains 4, 5 and 6 of ACARE Domain 1003)_x000D_
+_x000D_
+  - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Launching  and recovering technologies_x000D_
+ Remote control of aircraft, fully automated approach and landing_x000D_
+ Unmanned aircraft (fixed wing)_x000D_
+ Unmanned aircraft (helicopter type)_x000D_
+ Unmanned aircraft (multirotor type)_x000D_
+ Free flight control regime_x000D_
+_x000D_
+_x000D_
+Formation flying technologies"
+1L0,Digital Industry -  Industry 4.0,,"Digital Industry -  Industry 4.0 - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Following the definition from SMART (Eureka program on advanced manufacturing) a set of technologies are needed for developing the factories of the future, in particular for the aeronautical industry. All those technologies are included in this class except the ones related with Advanced Manufacturing and, in particular Additive Manufacturing, that is included into 1-B-4._x000D_
+_x000D_
+The grand challenge to be solved by these technologies is to significantly reduce recurrent costs and lead times in aeronautical industry._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: SMART Technology Roadmap for Aeronautical Industry) - SUBDOMAINS:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+1-L-1. Intelligent and Adaptive Manufacturing Systems _x000D_
+_x000D_
+1-L-2. Digital, Virtual and Efficient Companies _x000D_
+_x000D_
+1-L-3. Person-Machine Collaboration _x000D_
+_x000D_
+1-L-4. Sustainable Manufacturing _x000D_
+_x000D_
+1-L-5. Customer-based Manufacturing _x000D_
+_x000D_
+ "
+1L2,"Digital, Virtual and Efficient Companies",1L0,"Digital, Virtual and Efficient Companies  - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Includes Factory design, data collection and management, operation and planning, from real time to long term optimization approaches_x000D_
+_x000D_
+ _x000D_
+_x000D_
+OBJECTIVE: _x000D_
+_x000D_
+ _x000D_
+_x000D_
+Develop complete toolbox and concepts for a digital factory with and integrated end-to-end approach._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: SMART report, paragraph 4.1.5)_x000D_
+_x000D_
+  - TECHNOLOGIES:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Simulation techniques in manufacturing and assembly processes to increase ergonomics, first-time -right and production rates_x000D_
+ Evolution of machinery, integrating operation simulations in design: new processes, new machine tools and developing software with new features_x000D_
+ Robotised automation and synchronisation with internal logistics_x000D_
+ Use of big data and evolutionary algorithms for processes diagnosis, monitoring & control as well as predictive maintenance_x000D_
+ Development of simulation and management tools that permit better integration of the different phases of the production process_x000D_
+ Complete trackability and traceability of tools, production progress and products in real time_x000D_
+ Autonomous and intelligent coordination of supply chain and demand management_x000D_
+ E2E data backbone for complete integration of production systems_x000D_
+_x000D_
+_x000D_
+Cybersecurity and secured concepts for communications and cloud computing"
+1L3,Person-Machine Collaboration,1L0,"Person-Machine Collaboration  - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Includes the enhancement of the role of people in manufacturing_x000D_
+_x000D_
+ _x000D_
+_x000D_
+OBJECTIVE: _x000D_
+_x000D_
+ _x000D_
+_x000D_
+Enhance human performance and operating excellence by providing workers with new tools and collaborative systems and interfaces._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: SMART report, paragraph 4.1.6)_x000D_
+_x000D_
+  - TECHNOLOGIES:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Reducing the operator’s intervention during operations by using intermediate tool replacement systems and planning intervention sequences_x000D_
+ Coexistence of robots integrated with manual processes_x000D_
+ Concepts for smart use of IoT, virtual or augmented reality improving operations/process flow visualization systems_x000D_
+ Assembly processes simulation for improved ergonomics_x000D_
+ Enablers to support operator decisions based on advanced operator information systems_x000D_
+_x000D_
+_x000D_
+Training and educational hub for new key worker´s competences management and development"
+1L4,Sustainable Manufacturing,1L0,"Sustainable Manufacturing  - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Includes innovative processes and systems for sustainability in terms of energy and resource consumption and impact in the environment._x000D_
+_x000D_
+ _x000D_
+_x000D_
+OBJECTIVE: _x000D_
+_x000D_
+ _x000D_
+_x000D_
+Deploy production processes compatible with the REACH regulation. Reduction of raw materials´ use with respect to current reference by means of reduction of non- conformities, net-shape production and reuse of materials._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: SMART report, paragraph 4.1.7)_x000D_
+_x000D_
+  - TECHNOLOGIES:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Process and product monitoring with Instant automatic feedback to design and manufacturing with self- learning systems to assure optimum design for manufacturing and zero defects_x000D_
+ Cleaner processes, with less resource consumption: materials, energy, lubricants, etc. and reduction of generated waste_x000D_
+ Improving the “Buy to Fly ratio” using additive manufacturing and other net-shape manufacturing techniques_x000D_
+ Environmental compliant auxiliary materials_x000D_
+ Reuse of ancillary and avionable materials_x000D_
+ Less energy consumption processes such as titanium cold forming_x000D_
+ Reducing consumption of tools by component, optimising their use with intelligent tool life control_x000D_
+_x000D_
+_x000D_
+Advanced supply on demand management tools"
+1L5,Supply chain / Customer-based Manufacturing,1L0,"Supply chain / Customer-based Manufacturing  - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Includes involving customers in manufacturing value chain, from product process design to manufacturing associated innovative services_x000D_
+_x000D_
+ _x000D_
+_x000D_
+OBJECTIVE: _x000D_
+_x000D_
+ _x000D_
+_x000D_
+Development of management processes that permit standard production in environments with highly changing rates or model changes._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: SMART report, paragraph 4.1.8)_x000D_
+_x000D_
+  - TECHNOLOGIES:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Simulation, concurrent engineering methods and prototyping technologies for shortening development and certification cycles_x000D_
+ Development of SHM (Structural Health Monitoring) as a certification element for aircraft_x000D_
+ Modular systems, structures and manufacturing for efficient adaptation to customer demands_x000D_
+ Flexible tool-less manufacturing and assembly_x000D_
+_x000D_
+_x000D_
+Rapid prototyping techniques"
+1L1,Intelligent and Adaptive Manufacturing Systems,1L0,"Intelligent and Adaptive Manufacturing Systems  - DEFINITION:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+Includes Innovative Manufacturing equipment at components and system levels. Including mechatronics, control and monitoring systems._x000D_
+_x000D_
+ _x000D_
+_x000D_
+OBJECTIVE: _x000D_
+_x000D_
+ _x000D_
+_x000D_
+Implement advanced intelligent systems to allow first time right high productivity operations._x000D_
+_x000D_
+ _x000D_
+_x000D_
+(Source: SMART report, paragraph 4.1.4) - TECHNOLOGIES:_x000D_
+_x000D_
+ _x000D_
+_x000D_
+_x000D_
+ Advanced on-line processes monitoring and control systems. Development of measurement systems, sensors and indicators algorithms for process diagnosis_x000D_
+ Automate non-destructive inspection operations_x000D_
+ Advanced product and production tools metrology with real time control_x000D_
+ Robotic toolbox including light automation and collaborative robotics_x000D_
+ Flexible manufacturing systems_x000D_
+ Autonomous parts transport_x000D_
+_x000D_
+_x000D_
+ "
