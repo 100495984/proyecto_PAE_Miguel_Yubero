@@ -11,9 +11,6 @@ env/
 .env/
 .venv/
 
-# Streamlit
-.streamlit/
-
 # Jupyter
 .ipynb_checkpoints/
 

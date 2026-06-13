@@ -23,7 +23,7 @@ Aplicación web en Streamlit para clasificar proyectos aeronáuticos con tres mo
 ```powershell
 git clone <url-del-repo>
 cd proyecto_PAE
-python -m venv venv
+py -3.11 -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```bash
 git clone <url-del-repo>
 cd proyecto_PAE
-python3 -m venv venv
+python3.11 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
