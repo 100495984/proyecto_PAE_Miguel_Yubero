@@ -166,7 +166,7 @@ if section == "Clasificador":
 
     # ------------------------------ MODO DE CLASIFICACIÓN Y SELECCIÓN DE PROYECTO -----------------------------------------
 
-    visible_classification = collapsible_section("📄 Classification mode", "show_classification")
+    visible_classification = collapsible_section("📄 Classification", "show_classification")
     classification_container = st.container()
 
     with classification_container:
